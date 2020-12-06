@@ -1,16 +1,15 @@
-# Contributing
+# 贡献
 
-Your contributions are always welcome!
+欢迎各位大佬提交PR！
 
-## Guidelines
+## 投稿须知
 
-- Add section if needed.
-  - Add section description.
-  - Add section title to Table of contents.
-  - If the program has special functionality mention it in bullet points beneath it.
-- Search previous suggestions before making a new one, as yours may be a duplicate.
-- Add your links: `* [project-name](http://example.com/) - A short description ends with a dot.`
-- Check your spelling and grammar.
-- Make sure your text editor is set to remove trailing whitespace.
-- Send a Pull Request.
-- Add short description in your Pull Request of why the project/resource/tool is awesome.
+- 如果需要的话，增加新的章节；
+  - 添加章节说明
+  - 将章节标题添加到目录
+  - 如果程序具有特殊功能，请在其下方的项目符号中进行提及。
+- 在投稿前建议先搜索，可能会有重复；
+- 添加超链接： `* [项目名](超链接) - 概要，并以句号结束`；
+- 检查拼写；
+- 确保编辑器删除末尾空格；
+- 提交pull request，并在PR中添加简短说明，备注推荐理由。
