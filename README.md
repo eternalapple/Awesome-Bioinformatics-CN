@@ -3,14 +3,17 @@
 > 生物信息学（英语：bioinformatics）利用应用数学、信息学、统计学和计算机科学的方法研究生物学的问题。--[维基百科](https://zh.wikipedia.org/wiki/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6)
 
 本仓库`fork`自[https://github.com/danielecook/Awesome-Bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics)，为其汉化版，同时加上一些笔者在科研/工作中比较好用的生物信息学工具/数据库等。共同学习，共同进步。Help you，Help us。
-A curated list of awesome Bioinformatics software, resources, and libraries. Mostly command line based, and free or open-source. Please feel free to [contribute](CONTRIBUTING.md)!
+
+---
+
+生物信息学软件，资源和工具库的精选列表。 大多数为命令行，免费或开源工具。 欢迎提交[pull request](./CONTRIBUTING.md)~
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-## Table of Contents
 
-- [Package suites](#package-suites)
-- [Data Tools](#data-tools)
+
+- [软件包套件](#%E8%BD%AF%E4%BB%B6%E5%8C%85%E5%A5%97%E4%BB%B6)
+- [数据下载](#%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD)
 - [Data Processing](#data-processing)
   - [Command Line Utilities](#command-line-utilities)
 - [Next Generation Sequencing](#next-generation-sequencing)
@@ -52,24 +55,21 @@ A curated list of awesome Bioinformatics software, resources, and libraries. Mos
 
 ---
 
-## Package suites
+## 软件包套件
 
-Package suites gather software packages and installation tools for specific languages or platforms. We have some for bioinformatics software.
+软件包套件收录用于特定语言或平台的生物信息学软件包和安装工具。 
 
-- **[Bioconductor](https://github.com/Bioconductor)** - A plethora of tools for analysis and comprehension of high-throughput genomic data, including 1500+ software packages. [ [paper-2004](https://link.springer.com/article/10.1186/gb-2004-5-10-r80) | [web](https://www.bioconductor.org) ]
+- **[Bioconductor](https://github.com/Bioconductor)** - 基于`R`语言的用于分析高通量数据的工具平台，截至到3.12版本已收录1900多个软件包[ [paper-2004](https://link.springer.com/article/10.1186/gb-2004-5-10-r80) | [web](https://www.bioconductor.org) ]
+- **[Biopython](https://github.com/biopython/biopython)** - 基于`Python`的进行生物计算的免费工具，包括使用技巧，包以及详细文档。属于 [Open Bioinformatics Foundation](http://open-bio.org/)的一部分，同时也包含NCBI eutils的API来访问NCBI数据库[ [paper-2009](https://pubmed.ncbi.nlm.nih.gov/19304878) | [web](https://biopython.org) ]
+- **[Bioconda](https://github.com/bioconda)** - [conda包管理器](http://conda.pydata.org/docs/intro.html)中专门针对生物信息学软件的一个channel，包括3000+的生物信息学软件包[ [paper-2018](https://pubmed.ncbi.nlm.nih.gov/29967506) | [web](https://bioconda.github.io) ]
+- **[BioJulia](https://github.com/BioJulia)** - 基于`Jujia`的生物信息学和计算生物学框架[ [web](https://biojulia.net) ]
+- **[Rust-Bio](https://github.com/rust-bio/rust-bio)** - 基于`Rust`的生物信息学常见数据结构和算法[ [paper-2016](http://bioinformatics.oxfordjournals.org/content/early/2015/10/06/bioinformatics.btv573.short?rss=1) ]
+- **[SeqAn](https://github.com/seqan/seqan3)** - 基于`C++`的序列分析库
 
-- **[Biopython](https://github.com/biopython/biopython)** - Freely available tools for biological computing in Python, with included cookbook, packaging and thorough documentation. Part of the [Open Bioinformatics Foundation](http://open-bio.org/). Contains the very useful [Entrez](https://biopython.org/DIST/docs/api/Bio.Entrez-module.html) package for API access to the NCBI databases. [ [paper-2009](https://pubmed.ncbi.nlm.nih.gov/19304878) | [web](https://biopython.org) ]
+## 数据下载
 
-- **[Bioconda](https://github.com/bioconda)** - A channel for the [conda package manager](http://conda.pydata.org/docs/intro.html) specializing in bioinformatics software. Includes a repository with 3000+ ready-to-install (with `conda install`) bioinformatics packages. [ [paper-2018](https://pubmed.ncbi.nlm.nih.gov/29967506) | [web](https://bioconda.github.io) ]
-
-- **[BioJulia](https://github.com/BioJulia)** - Bioinformatics and computational biology infastructure for the Julia programming language. [ [web](https://biojulia.net) ]
-- **[Rust-Bio](https://github.com/rust-bio/rust-bio)** - Rust implementations of algorithms and data structures useful for bioinformatics. [ [paper-2016](http://bioinformatics.oxfordjournals.org/content/early/2015/10/06/bioinformatics.btv573.short?rss=1) ]
-- **[SeqAn](https://github.com/seqan/seqan3)** - The modern C++ library for sequence analysis.
-
-## Data Tools
-
-- **[GGD](https://github.com/gogetdata/ggd-cli)** - Go Get Data; A command line interface for obtaining genomic data. [ [web](https://gogetdata.github.io) ]
-- **[SRA-Explorer](https://github.com/ewels/sra-explorer)** - Easily get SRA download links and other information. [ [web](https://sra-explorer.info) ]
+- **[GGD](https://github.com/gogetdata/ggd-cli)** - Go Get Data; 命令行下载基因组数据 [ [web](https://gogetdata.github.io) ]
+- **[SRA-Explorer](https://github.com/ewels/sra-explorer)** - 快速获得SRA下载链接和其它信息 [ [web](https://sra-explorer.info) ]
 
 ## Data Processing
 
