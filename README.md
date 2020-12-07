@@ -14,10 +14,10 @@
 
 - [软件包套件](#%E8%BD%AF%E4%BB%B6%E5%8C%85%E5%A5%97%E4%BB%B6)
 - [数据下载](#%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD)
-- [Data Processing](#data-processing)
-  - [Command Line Utilities](#command-line-utilities)
-- [Next Generation Sequencing](#next-generation-sequencing)
-  - [Workflow Managers](#workflow-managers)
+- [数据处理](#%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86)
+  - [命令行工具](#%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7)
+- [二代测序](#%E4%BA%8C%E4%BB%A3%E6%B5%8B%E5%BA%8F)
+  - [流程管理工具](#%E6%B5%81%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7)
   - [Pipelines](#pipelines)
   - [Sequence Processing](#sequence-processing)
   - [Data Analysis](#data-analysis)
@@ -105,11 +105,12 @@
 - **[Snakemake](https://github.com/snakemake/snakemake)**:thumbsup: - Python中的工作流管理系统，旨在通过提供快速舒适的执行环境来降低创建工作流的复杂性 [ [paper-2018](https://pubmed.ncbi.nlm.nih.gov/29788404) | [web](https://snakemake.readthedocs.io) ]
 - **[Workflow Descriptor Language](https://github.com/broadinstitute/wdl)** - Broad开发的流程标准(已archived) [ [web](https://software.broadinstitute.org/wdl) ]
 
-### Pipelines
+### 流程
 
-- **[Awesome-Pipeline](https://github.com/pditommaso/awesome-pipeline)** - A list of pipeline resources.
-- **[bcbio-nextgen](https://github.com/chapmanb/bcbio-nextgen)** - Batteries included genomic analysis pipeline for variant and RNA-Seq analysis, structural variant calling, annotation, and prediction. [ [web](https://bcbio-nextgen.readthedocs.io) ]
-- **[R-Peridot](https://github.com/pentalpha/r-peridot)** - Customizable pipeline for differential expression analysis with an intuitive GUI. [ [web](http://www.bioinformatics-brazil.org/r-peridot) ]
+- **[Awesome-Pipeline](https://github.com/pditommaso/awesome-pipeline)** - 流程资源列表
+- **[bcbio-nextgen](https://github.com/chapmanb/bcbio-nextgen)** - 已验证可扩展的，社区开发的变异检测，注释，预测，RNA-seq和小RNA分析流程 [ [web](https://bcbio-nextgen.readthedocs.io) ]
+- **[R-Peridot](https://github.com/pentalpha/r-peridot)** - 通过直观的GUI定制差异表达分析 [ [web](http://www.bioinformatics-brazil.org/r-peridot) ]
+- [snakepipes](https://github.com/maxplanck-ie/snakepipes):thumbsup: - 基于snakemake的流程，包括ChIP-seq，mRNA-seq， noncoding-RNA-seq， ATAC-seq， scRNA-seq，Hi-C，Whole Genome Bisulfite Seq/WGBS [ [paper-2019](https://academic.oup.com/bioinformatics/article/35/22/4757/5499080) ]
 
 ### Sequence Processing
 
