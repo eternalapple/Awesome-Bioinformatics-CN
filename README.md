@@ -71,38 +71,39 @@
 - **[GGD](https://github.com/gogetdata/ggd-cli)** - Go Get Data; 命令行下载基因组数据 [ [web](https://gogetdata.github.io) ]
 - **[SRA-Explorer](https://github.com/ewels/sra-explorer)** - 快速获得SRA下载链接和其它信息 [ [web](https://sra-explorer.info) ]
 
-## Data Processing
+## 数据处理
 
-### Command Line Utilities
+### 命令行工具
 
-- **[Bioinformatics One Liners](https://github.com/stephenturner/oneliners)** - Git repo of useful single line commands.
-- **[BioNode](https://github.com/bionode/bionode)** - Modular and universal bioinformatics, Bionode provides pipeable UNIX command line tools and JavaScript APIs for bioinformatics analysis workflows. [ [web](http://bionode.io) ]
-- **[bioSyntax](https://github.com/bioSyntax/bioSyntax)** - Syntax Highlighting for Computational Biology file formats (SAM, VCF, GTF, FASTA, PDB, etc...) in vim/less/gedit/sublime. [ [paper-2018](https://pubmed.ncbi.nlm.nih.gov/30134911) | [web](http://www.bioSyntax.org) ]
-- **[CSVKit](https://github.com/wireservice/csvkit)** - Utilities for working with CSV/Tab-delimited files. [ [web](https://csvkit.readthedocs.io/en/latest) ]
-- **[csvtk](https://github.com/shenwei356/csvtk)** - Another cross-platform, efficient, practical and pretty CSV/TSV toolkit. [ [web](https://bioinf.shenwei.me/csvtk) ]
-- **[datamash](https://git.savannah.gnu.org/gitweb/?p=datamash.git)** - Data transformations and statistics. [ [web](http://www.gnu.org/software/datamash) ]
-- **[easy_qsub](https://github.com/shenwei356/easy_qsub)** - Easily submitting PBS jobs with script template. Multiple input files supported.
-- **GNU Parallel** - General parallelizer that runs jobs in parallel on a single multi-core machine. [Here](https://www.biostars.org/p/63816/) are some example scripts using GNU Parallel. [ [web](http://www.gnu.org/software/parallel) ]
-- **[grabix](https://github.com/arq5x/grabix)** - A wee tool for random access into BGZF files.
-- **[gsort](https://github.com/brentp/gsort)** - Sort genomic files according to a specified order.
-- **[tabix](https://github.com/samtools/tabix)** - Table file index. [ [paper-2011](https://pubmed.ncbi.nlm.nih.gov/21208982) ]
-- **[wormtable](https://github.com/wormtable/wormtable)** - Write-once-read-many table for large datasets.
-- **[zindex](https://github.com/mattgodbolt/zindex)** - Create an index on a compressed text file.
+- **[Bioinformatics One Liners](https://github.com/stephenturner/oneliners)** - 只一行命令进行生物数据处理
+- **[BioNode](https://github.com/bionode/bionode)** - 模块化和通用的生物信息学工具，Bionode为生物信息学分析工作流提供了可移植的UNIX命令行工具和JavaScript API [ [web](http://bionode.io) ]
+- **[bioSyntax](https://github.com/bioSyntax/bioSyntax)** - vim/less/gedit/submie中生物数据格式(SAM, VCF, GTF, FASTA, PDB等)语法高亮 [ [paper-2018](https://pubmed.ncbi.nlm.nih.gov/30134911) | [web](http://www.bioSyntax.org) ]
+- **[CSVKit](https://github.com/wireservice/csvkit)** - 操作CSV/TAB分割文件的工具 [ [web](https://csvkit.readthedocs.io/en/latest) ]
+- **[csvtk](https://github.com/shenwei356/csvtk)** - 另一个跨平台，高效实用的CSV/TSV工具箱 [ [web](https://bioinf.shenwei.me/csvtk) ]
+- **[datamash](https://git.savannah.gnu.org/gitweb/?p=datamash.git)** - 数据转换和统计 [ [web](http://www.gnu.org/software/datamash) ]
+- **[easy_qsub](https://github.com/shenwei356/easy_qsub)** - 使用脚本模板快速提交PBS任务，支持多个输入文件
+- **GNU Parallel** - 在一台多核的机器上并行执行任务的通用并行器，[这里](https://www.biostars.org/p/63816/)是使用GNU cParallel的一些示例。
+- **[grabix](https://github.com/arq5x/grabix)** - 随机访问BGZF文件的轻量工具。
+- **[gsort](https://github.com/brentp/gsort)** - 按照指定顺序排序基因文件
+- **[tabix](https://github.com/samtools/tabix)** - 表格数据建立索引 [ [paper-2011](https://pubmed.ncbi.nlm.nih.gov/21208982) ]
+- **[wormtable](https://github.com/wormtable/wormtable)** - 大型数据集单写多读
+- **[zindex](https://github.com/mattgodbolt/zindex)** - 压缩文本文件创建索引
+- [jq](https://github.com/stedolan/jq):thumbsup: - 命令行处理JSON文件
 
-## Next Generation Sequencing
+## 二代测序
 
-### Workflow Managers
+### 流程管理工具
 
-- **[BigDataScript](https://github.com/pcingola/BigDataScript)** - A cross-system scripting language for working with big data pipelines in computer systems of different sizes and capabilities. [ [paper-2014](https://pubmed.ncbi.nlm.nih.gov/25189778) | [web](https://pcingola.github.io/BigDataScript) ]
-- **[Bpipe](https://github.com/ssadedin/bpipe)** - A small language for defining pipeline stages and linking them together to make pipelines. [ [web](http://docs.bpipe.org) ]
-- **[Common Workflow Language](https://github.com/common-workflow-language/common-workflow-language)** - a specification for describing analysis workflows and tools that are portable and scalable across a variety of software and hardware environments, from workstations to cluster, cloud, and high performance computing (HPC) environments. [ [web](http://www.commonwl.org) ]
-- **[Cromwell](https://github.com/broadinstitute/cromwell)** - A Workflow Management System geared towards scientific workflows. [ [web](https://cromwell.readthedocs.io) ]
-- **[Galaxy](https://github.com/galaxyproject)** - a popular open-source, web-based platform for data intensive biomedical research. Has several features, from data analysis to workflow management to visualization tools. [ [paper-2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030816) | [web](https://galaxyproject.org) ]
-- **[Nextflow](https://github.com/nextflow-io/nextflow) (recommended)** - A fluent DSL modelled around the UNIX pipe concept, that simplifies writing parallel and scalable pipelines in a portable manner. [ [paper-2018](https://pubmed.ncbi.nlm.nih.gov/29412134) | [web](http://nextflow.io) ]
-- **[Ruffus](https://github.com/cgat-developers/ruffus)** - Computation Pipeline library for python widely used in science and bioinformatics. [ [paper-2010](https://pubmed.ncbi.nlm.nih.gov/20847218) | [web](http://www.ruffus.org.uk) ]
-- **[SeqWare](https://github.com/SeqWare/seqware)** - Hadoop Oozie-based workflow system focused on genomics data analysis in cloud environments. [ [paper-2010](https://pubmed.ncbi.nlm.nih.gov/21210981) | [web](https://seqware.github.io) ]
-- **[Snakemake](https://bitbucket.org/snakemake)** - A workflow management system in Python that aims to reduce the complexity of creating workflows by providing a fast and comfortable execution environment. [ [paper-2018](https://pubmed.ncbi.nlm.nih.gov/29788404) | [web](https://snakemake.readthedocs.io) ]
-- **[Workflow Descriptor Language](https://github.com/broadinstitute/wdl)** - Workflow standard developed by the Broad. [ [web](https://software.broadinstitute.org/wdl) ]
+- **[BigDataScript](https://github.com/pcingola/BigDataScript)** - 跨系统脚本语言，用于处理具有不同算力的计算机系统中的大数据流程的跨系统脚本语言 [ [paper-2014](https://pubmed.ncbi.nlm.nih.gov/25189778) | [web](https://pcingola.github.io/BigDataScript) ]
+- **[Bpipe](https://github.com/ssadedin/bpipe)** - 一种定义流程不同阶段及串联起来的轻量语言 [ [web](http://docs.bpipe.org) ]
+- **[Common Workflow Language](https://github.com/common-workflow-language/common-workflow-language)** - 用于描述分析工作流程和工具的规范，从工作站到集群，云和高性能计算（HPC）环境的各种软件和硬件环境中都具有可移植性和可伸缩性 [ [web](http://www.commonwl.org) ]
+- **[Cromwell](https://github.com/broadinstitute/cromwell)** - 面向科学工作流程的工作流程管理系统 [ [web](https://cromwell.readthedocs.io) ]
+- **[Galaxy](https://github.com/galaxyproject)** - 一个流行的开源，基于Web的平台，用于数据密集型生物医学研究。 从数据分析到工作流管理再到可视化工具一站式解决 [ [paper-2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030816) | [web](https://galaxyproject.org) ]
+- **[Nextflow](https://github.com/nextflow-io/nextflow) :thumbsup:** - 基于UNIX管道概念建模的流畅DSL，简化了以可移植方式编写并行和可扩展管道的过程。 [ [paper-2018](https://pubmed.ncbi.nlm.nih.gov/29412134) | [web](http://nextflow.io) ]
+- **[Ruffus](https://github.com/cgat-developers/ruffus)** - 广泛用于科学和生物信息的计算流程Python库[ [paper-2010](https://pubmed.ncbi.nlm.nih.gov/20847218) | [web](http://www.ruffus.org.uk) ]
+- **[SeqWare](https://github.com/SeqWare/seqware)** - 基于Hadoop Oozie的工作流系统用于云环境中的基因组数据分析 [ [paper-2010](https://pubmed.ncbi.nlm.nih.gov/21210981) | [web](https://seqware.github.io) ]
+- **[Snakemake](https://github.com/snakemake/snakemake)**:thumbsup: - Python中的工作流管理系统，旨在通过提供快速舒适的执行环境来降低创建工作流的复杂性 [ [paper-2018](https://pubmed.ncbi.nlm.nih.gov/29788404) | [web](https://snakemake.readthedocs.io) ]
+- **[Workflow Descriptor Language](https://github.com/broadinstitute/wdl)** - Broad开发的流程标准(已archived) [ [web](https://software.broadinstitute.org/wdl) ]
 
 ### Pipelines
 
