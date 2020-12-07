@@ -88,7 +88,7 @@
 - **[tabix](https://github.com/samtools/tabix)** - 表格数据建立索引 [ [paper-2011](https://pubmed.ncbi.nlm.nih.gov/21208982) ]
 - **[wormtable](https://github.com/wormtable/wormtable)** - 大型数据集单写多读
 - **[zindex](https://github.com/mattgodbolt/zindex)** - 压缩文本文件创建索引
-- [jq](https://github.com/stedolan/jq):thumbsup: - 命令行处理JSON文件
+- **[jq](https://github.com/stedolan/jq)​**:thumbsup: - 命令行处理JSON文件
 
 ## 二代测序
 
@@ -110,7 +110,7 @@
 - **[Awesome-Pipeline](https://github.com/pditommaso/awesome-pipeline)** - 流程资源列表
 - **[bcbio-nextgen](https://github.com/chapmanb/bcbio-nextgen)** - 已验证可扩展的，社区开发的变异检测，注释，预测，RNA-seq和小RNA分析流程 [ [web](https://bcbio-nextgen.readthedocs.io) ]
 - **[R-Peridot](https://github.com/pentalpha/r-peridot)** - 通过直观的GUI定制差异表达分析 [ [web](http://www.bioinformatics-brazil.org/r-peridot) ]
-- [snakepipes](https://github.com/maxplanck-ie/snakepipes):thumbsup: - 基于snakemake的流程，包括ChIP-seq，mRNA-seq， noncoding-RNA-seq， ATAC-seq， scRNA-seq，Hi-C，Whole Genome Bisulfite Seq/WGBS [ [paper-2019](https://academic.oup.com/bioinformatics/article/35/22/4757/5499080) ]
+- **[snakepipes](https://github.com/maxplanck-ie/snakepipes):thumbsup:** - 基于snakemake的流程，包括ChIP-seq，mRNA-seq， noncoding-RNA-seq， ATAC-seq， scRNA-seq，Hi-C，Whole Genome Bisulfite Seq/WGBS [ [paper-2019](https://academic.oup.com/bioinformatics/article/35/22/4757/5499080) ]
 
 ### Sequence Processing
 
