@@ -1,12 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [贡献](#%E8%B4%A1%E7%8C%AE)
-  - [投稿须知](#%E6%8A%95%E7%A8%BF%E9%A1%BB%E7%9F%A5)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # 贡献
 
 欢迎各位大佬提交PR！
