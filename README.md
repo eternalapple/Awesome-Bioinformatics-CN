@@ -17,9 +17,10 @@
 - [数据处理](#%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86)
   - [命令行工具](#%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7)
 - [二代测序](#%E4%BA%8C%E4%BB%A3%E6%B5%8B%E5%BA%8F)
-  - [流程管理工具](#%E6%B5%81%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7)
-  - [流程](#%E6%B5%81%E7%A8%8B)
-  - [Sequence Processing](#sequence-processing)
+  - [流程管理](#%E6%B5%81%E7%A8%8B%E7%AE%A1%E7%90%86)
+  - [生信流程](#%E7%94%9F%E4%BF%A1%E6%B5%81%E7%A8%8B)
+  - [格式转化](#%E6%A0%BC%E5%BC%8F%E8%BD%AC%E5%8C%96)
+  - [序列处理](#%E5%BA%8F%E5%88%97%E5%A4%84%E7%90%86)
   - [Data Analysis](#data-analysis)
   - [Sequence Alignment](#sequence-alignment)
     - [Pairwise](#pairwise)
@@ -92,7 +93,7 @@
 
 ## 二代测序
 
-### 流程管理工具
+### 流程管理
 
 - **[BigDataScript](https://github.com/pcingola/BigDataScript)** - 跨系统脚本语言，用于处理具有不同算力的计算机系统中的大数据流程的跨系统脚本语言 [ [paper-2014](https://pubmed.ncbi.nlm.nih.gov/25189778) | [web](https://pcingola.github.io/BigDataScript) ]
 - **[Bpipe](https://github.com/ssadedin/bpipe)** - 一种定义流程不同阶段及串联起来的轻量语言 [ [web](http://docs.bpipe.org) ]
@@ -105,26 +106,30 @@
 - **[Snakemake](https://github.com/snakemake/snakemake)**:thumbsup: - Python中的工作流管理系统，旨在通过提供快速舒适的执行环境来降低创建工作流的复杂性 [ [paper-2018](https://pubmed.ncbi.nlm.nih.gov/29788404) | [web](https://snakemake.readthedocs.io) ]
 - **[Workflow Descriptor Language](https://github.com/broadinstitute/wdl)** - Broad开发的流程标准(已archived) [ [web](https://software.broadinstitute.org/wdl) ]
 
-### 流程
+### 生信流程
 
 - **[Awesome-Pipeline](https://github.com/pditommaso/awesome-pipeline)** - 流程资源列表
 - **[bcbio-nextgen](https://github.com/chapmanb/bcbio-nextgen)** - 已验证可扩展的，社区开发的变异检测，注释，预测，RNA-seq和小RNA分析流程 [ [web](https://bcbio-nextgen.readthedocs.io) ]
-- **[R-Peridot](https://github.com/pentalpha/r-peridot)** - 通过直观的GUI定制差异表达分析 [ [web](http://www.bioinformatics-brazil.org/r-peridot) ]
 - **[snakepipes](https://github.com/maxplanck-ie/snakepipes):thumbsup:** - 基于snakemake的流程，包括ChIP-seq，mRNA-seq， noncoding-RNA-seq， ATAC-seq， scRNA-seq，Hi-C，Whole Genome Bisulfite Seq/WGBS [ [paper-2019](https://academic.oup.com/bioinformatics/article/35/22/4757/5499080) ]
 
-### Sequence Processing
+### 格式转化
 
-Sequence Processing includes tasks such as demultiplexing raw read data, and trimming low quality bases.
+- **[seqmagick](https://github.com/fhcrc/seqmagick)** - 方便使用Biopython进行文件格式转化 [ [web](http://seqmagick.readthedocs.io) ]
+- **[bioconvert](https://github.com/bioconvert/bioconvert)** :thumbsup: - 目前支持45种格式，95种转换[ [web](https://bioconvert.readthedocs.io/en/master/) ] 
 
-- **[AfterQC](https://github.com/OpenGene/AfterQC)** - Automatic Filtering, Trimming, Error Removing and Quality Control for fastq data. [ [paper-2017](https://pubmed.ncbi.nlm.nih.gov/28361673) ]
-- **[FastQC](https://github.com/s-andrews/FastQC)** - A quality control tool for high throughput sequence data. [ [web](http://www.bioinformatics.babraham.ac.uk/projects/fastqc) ]
-- **[Fastqp](https://github.com/mdshw5/fastqp)** - FASTQ and SAM quality control using Python.
-- **[Fastx Tookit](https://github.com/agordon/fastx_toolkit)** - FASTQ/A short-reads pre-processing tools: Demultiplexing, trimming, clipping, quality filtering, and masking utilities. [ [web](http://hannonlab.cshl.edu/fastx_toolkit) ]
-- **[MultiQC](https://github.com/ewels/MultiQC)** - Aggregate results from bioinformatics analyses across many samples into a single report. [ [paper-2016](https://pubmed.ncbi.nlm.nih.gov/27312411) | [web](http://multiqc.info) ]
-- **[SeqKit](https://github.com/shenwei356/seqkit)** - A cross-platform and ultrafast toolkit for FASTA/Q file manipulation in Golang. [ [paper-2016](https://pubmed.ncbi.nlm.nih.gov/27706213) | [web](https://bioinf.shenwei.me/seqkit) ]
-- **[seqmagick](https://github.com/fhcrc/seqmagick)** - file format conversion in Biopython in a convenient way. [ [web](http://seqmagick.readthedocs.io) ]
-- **[Seqtk](https://github.com/lh3/seqtk)** - Toolkit for processing sequences in FASTA/Q formats.
-- **[smof](https://github.com/incertae-sedis/smof)** - UNIX-style FASTA manipulation tools.
+### 序列处理
+
+序列处理包括对原始测序数据去除接头和低质量序列。
+
+- **[AfterQC](https://github.com/OpenGene/AfterQC)** - 对FASTQ数据自动过滤，triming，移除错误和质控[ [paper-2017](https://pubmed.ncbi.nlm.nih.gov/28361673) ]，后作者使用C++重新实现，成为
+- **[fastp](https://github.com/OpenGene/fastp)** :thumbsup: AfterQC作者使用C++重新实现 [ [paper 2018](https://academic.oup.com/bioinformatics/article/34/17/i884/5093234 )]
+- **[FastQC](https://github.com/s-andrews/FastQC)** - 高通量测序数据FASTQ质控工具 [ [web](http://www.bioinformatics.babraham.ac.uk/projects/fastqc) ]
+- **[Fastqp](https://github.com/mdshw5/fastqp)** - 基于`python`的FASTQ和SAM质控工具
+- **[Fastx Tookit](https://github.com/agordon/fastx_toolkit)** - FASTQ/FASTA 短序列处理工具：去接头，trimming，碱基质量过滤，masking[ [web](http://hannonlab.cshl.edu/fastx_toolkit) ]
+- **[MultiQC](https://github.com/ewels/MultiQC)** :thumbsup: - 汇总多个样本的生物信息分析结果到一张报告 [ [paper-2016](https://pubmed.ncbi.nlm.nih.gov/27312411) | [web](http://multiqc.info) ]
+- **[SeqKit](https://github.com/shenwei356/seqkit)** - 基于`Go`的跨平台，超快处理FASTQ/FASTQ文件的工具包[ [paper-2016](https://pubmed.ncbi.nlm.nih.gov/27706213) | [web](https://bioinf.shenwei.me/seqkit) ]
+- **[Seqtk](https://github.com/lh3/seqtk)** :thumbsup:- 处理FASTA/FASTQ格式中序列的工具箱
+- **[smof](https://github.com/incertae-sedis/smof)** - UNIX-风格的FASTA操作工具
 
 ### Data Analysis
 
