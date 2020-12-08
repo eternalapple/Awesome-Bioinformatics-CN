@@ -22,8 +22,8 @@
   - [格式转化](#%E6%A0%BC%E5%BC%8F%E8%BD%AC%E5%8C%96)
   - [序列处理](#%E5%BA%8F%E5%88%97%E5%A4%84%E7%90%86)
   - [Data Analysis](#data-analysis)
-  - [Sequence Alignment](#sequence-alignment)
-    - [Pairwise](#pairwise)
+  - [序列比对](#%E5%BA%8F%E5%88%97%E6%AF%94%E5%AF%B9)
+    - [双序列比对](#%E5%8F%8C%E5%BA%8F%E5%88%97%E6%AF%94%E5%AF%B9)
     - [Multiple Sequence Alignment](#multiple-sequence-alignment)
   - [Quantification](#quantification)
   - [Variant Calling](#variant-calling)
@@ -138,12 +138,12 @@ The following items allow for scalable genomic analysis by introducing specializ
 - **[Hail](https://github.com/hail-is/hail)** - Scalable genomic analysis.
 - **[GLNexus](https://github.com/dnanexus-rnd/GLnexus)** - Scalable gVCF merging and joint variant calling for population sequencing projects. [ [paper-2018](https://www.biorxiv.org/content/10.1101/343970v1.abstract) ]
 
-### Sequence Alignment
+### 序列比对
 
-#### Pairwise
+#### 双序列比对
 
-- **[Bowtie 2](https://github.com/BenLangmead/bowtie2)** - An ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences. [ [paper-2012](https://pubmed.ncbi.nlm.nih.gov/22388286) | [web](http://bowtie-bio.sourceforge.net/bowtie2) ]
-- **[BWA](https://github.com/lh3/bwa)** - Burrow-Wheeler Aligner for pairwise alignment between DNA sequences.
+- **[Bowtie 2](https://github.com/BenLangmead/bowtie2)** - 一种超快速且节约内存的工具，将测序序列与参考序列进行比对。[ [paper-2012](https://pubmed.ncbi.nlm.nih.gov/22388286) | [web](http://bowtie-bio.sourceforge.net/bowtie2) ]
+- **[BWA](https://github.com/lh3/bwa)** - DNA序列间两两比对的Burrow-Wheeler Aligner
 - **[WFA](https://github.com/smarco/WFA)** - the wavefront alignment algorithm (WFA) which expoit sequence similarity to speed up alignment [ [paper-2020](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaa777/5904262) ]
 - **[Parasail](https://github.com/jeffdaily/parasail)** - SIMD C library for global, semi-global, and local pairwise sequence alignments [ [paper-2016](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-0930-z) ]
 - **[MUMmer](https://github.com/mummer4/mummer)** -  A system for rapidly aligning entire genomes, whether in complete or draft form. [ [paper-1999](http://mummer.sourceforge.net/MUMmer.pdf) | [paper-2002](http://mummer.sourceforge.net/MUMmer2.pdf) | [paper-2004](http://mummer.sourceforge.net/MUMmer3.pdf) | [web](http://mummer.sourceforge.net) ]
