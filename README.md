@@ -144,35 +144,36 @@ The following items allow for scalable genomic analysis by introducing specializ
 
 - **[Bowtie 2](https://github.com/BenLangmead/bowtie2)** - 一种超快速且节约内存的工具，将测序序列与参考序列进行比对。[ [paper-2012](https://pubmed.ncbi.nlm.nih.gov/22388286) | [web](http://bowtie-bio.sourceforge.net/bowtie2) ]
 - **[BWA](https://github.com/lh3/bwa)** - DNA序列间两两比对的Burrow-Wheeler Aligner
-- **[WFA](https://github.com/smarco/WFA)** - the wavefront alignment algorithm (WFA) which expoit sequence similarity to speed up alignment [ [paper-2020](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaa777/5904262) ]
-- **[Parasail](https://github.com/jeffdaily/parasail)** - SIMD C library for global, semi-global, and local pairwise sequence alignments [ [paper-2016](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-0930-z) ]
-- **[MUMmer](https://github.com/mummer4/mummer)** -  A system for rapidly aligning entire genomes, whether in complete or draft form. [ [paper-1999](http://mummer.sourceforge.net/MUMmer.pdf) | [paper-2002](http://mummer.sourceforge.net/MUMmer2.pdf) | [paper-2004](http://mummer.sourceforge.net/MUMmer3.pdf) | [web](http://mummer.sourceforge.net) ]
+- **[WFA](https://github.com/smarco/WFA)** - wavefront比对算法(WFA)利用序列的相似性加速比对 [ [paper-2020](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaa777/5904262) ]
+- **[Parasail](https://github.com/jeffdaily/parasail)** - 用于全局，半全局和局部序列比对的SIMD C库[ [paper-2016](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-0930-z) ]
+- **[MUMmer](https://github.com/mummer4/mummer)** -  整基因组比对 [ [paper-1999](http://mummer.sourceforge.net/MUMmer.pdf) | [paper-2002](http://mummer.sourceforge.net/MUMmer2.pdf) | [paper-2004](http://mummer.sourceforge.net/MUMmer3.pdf) | [web](http://mummer.sourceforge.net) ]
 
-#### Multiple Sequence Alignment
+#### 多序列比对
 
-- **[POA](https://github.com/ljdursi/poapy)** - Partial-Order Alignment for fast alignment and consensus of multiple homologous sequences. [ [paper-2002](https://academic.oup.com/bioinformatics/article/18/3/452/236691) ]
+- **[POA](https://github.com/ljdursi/poapy)** - 偏序比对用于多序列比对以及同源序列保守序列[ [paper-2002](https://academic.oup.com/bioinformatics/article/18/3/452/236691) ]
 
-### Quantification
+### 表达定量
 
-- **[Cufflinks](https://github.com/cole-trapnell-lab/cufflinks)** - Cufflinks assembles transcripts, estimates their abundances, and tests for differential expression and regulation in RNA-Seq samples. [ [paper-2010](https://www.nature.com/articles/nbt.1621) ]
-- **[RSEM](https://github.com/deweylab/RSEM)** - A software package for estimating gene and isoform expression levels from RNA-Seq data. [ [paper-2011](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-323) | [web](http://deweylab.github.io/RSEM/) ]
+- **[Cufflinks](https://github.com/cole-trapnell-lab/cufflinks)** - Cufflinks组装转录本，估计表达风度，RNA-seq样本差异表达和调控分析 [ [paper-2010](https://www.nature.com/articles/nbt.1621) ]
+- **[RSEM](https://github.com/deweylab/RSEM)** - RNA-Seq数据基因层次和转录本层次表达定量 [ [paper-2011](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-323) | [web](http://deweylab.github.io/RSEM/) ]
 
-### Variant Calling
+### 变异检测
 
-- **[freebayes](https://github.com/ekg/freebayes)** - Bayesian haplotype-based polymorphism discovery and genotyping. [ [web](http://arxiv.org/abs/1207.3907) ]
-- **[GATK](https://github.com/broadgsa/gatk)** - Variant Discovery in High-Throughput Sequencing Data. [ [web](https://software.broadinstitute.org/gatk) ]
-- **[samtools](https://github.com/samtools/samtools)** - A suite of tools for manipulating next-generation sequencing data. [ [paper-2009](https://pubmed.ncbi.nlm.nih.gov/19505943) | [web](http://htslib.org) ]
+- **[freebayes](https://github.com/ekg/freebayes)** - 基于贝叶斯单倍型多态性发现及基因分型 [ [web](http://arxiv.org/abs/1207.3907) ]
+- **[GATK](https://github.com/broadgsa/gatk)** :thumbsup:- 高通量数据变异检测金标准[ [web](https://software.broadinstitute.org/gatk) ]
 
-#### Structural variant callers
+#### 结构变异检测
 
-- **[Delly](https://github.com/dellytools/delly)** - Structural variant discovery by integrated paired-end and split-read analysis. [ [paper-2012](https://pubmed.ncbi.nlm.nih.gov/22962449) ]
-- **[lumpy](https://github.com/arq5x/lumpy-sv)** - lumpy: a general probabilistic framework for structural variant discovery. [ [paper-2014](https://link.springer.com/article/10.1186/gb-2014-15-6-r84) ]
-- **[manta](https://github.com/Illumina/manta)** - Structural variant and indel caller for mapped sequencing data. [ [paper-2015](https://pubmed.ncbi.nlm.nih.gov/26647377) ]
-- **[gridss](https://github.com/PapenfussLab/gridss)** - GRIDSS: the Genomic Rearrangement IDentification Software Suite. [ [paper-2017](https://pubmed.ncbi.nlm.nih.gov/29097403) ]
-- **[smoove](https://github.com/brentp/smoove)** - structural variant calling and genotyping with existing tools, but,smoothly.
+- **[Delly](https://github.com/dellytools/delly)** - 整合paired-end和split-read分析的结构变异识别[ [paper-2012](https://pubmed.ncbi.nlm.nih.gov/22962449) ]
+- **[lumpy](https://github.com/arq5x/lumpy-sv)** - 基于概率框架检测结构变异 [ [paper-2014](https://link.springer.com/article/10.1186/gb-2014-15-6-r84) ]
+- **[manta](https://github.com/Illumina/manta)** - 从双端比对数据中检测结构变异和Indel [ [paper-2015](https://pubmed.ncbi.nlm.nih.gov/26647377) ]
+- **[gridss](https://github.com/PapenfussLab/gridss)** - 基因组重排检测工具集 [ [paper-2017](https://pubmed.ncbi.nlm.nih.gov/29097403) ]
+- **[smoove](https://github.com/brentp/smoove)** - 结构变异检测，基因分型
+- **[cnvkit](https://github.com/etal/cnvkit)** - 靶向DNA测序拷贝数变异检测 [ [paper-2016](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004873 ) ]
 
 ### BAM File Utilities
 
+- **[samtools](https://github.com/samtools/samtools)** :thumbsup:- 操作高通量测序数据的工具箱 [ [paper-2009](https://pubmed.ncbi.nlm.nih.gov/19505943) | [web](http://htslib.org) ]
 - **[Bamtools](https://github.com/pezmaster31/bamtools)** - Collection of tools for working with BAM files. [ [paper-2011](https://academic.oup.com/bioinformatics/article/27/12/1691/255399) ]
 - **[bam toolbox](https://github.com/AndersenLab/bam-toolbox)** MtDNA:Nuclear Coverage; BAM Toolbox can output the ratio of MtDNA:nuclear coverage, a proxy for mitochondrial content.
 - **[mergesam](https://github.com/DarwinAwardWinner/mergesam)** - Automate common SAM & BAM conversions.
