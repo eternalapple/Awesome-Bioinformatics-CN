@@ -21,24 +21,26 @@
   - [生信流程](#%E7%94%9F%E4%BF%A1%E6%B5%81%E7%A8%8B)
   - [格式转化](#%E6%A0%BC%E5%BC%8F%E8%BD%AC%E5%8C%96)
   - [序列处理](#%E5%BA%8F%E5%88%97%E5%A4%84%E7%90%86)
-  - [Data Analysis](#data-analysis)
+  - [数据分析](#%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90)
   - [序列比对](#%E5%BA%8F%E5%88%97%E6%AF%94%E5%AF%B9)
     - [双序列比对](#%E5%8F%8C%E5%BA%8F%E5%88%97%E6%AF%94%E5%AF%B9)
     - [多序列比对](#%E5%A4%9A%E5%BA%8F%E5%88%97%E6%AF%94%E5%AF%B9)
   - [表达定量](#%E8%A1%A8%E8%BE%BE%E5%AE%9A%E9%87%8F)
   - [变异检测](#%E5%8F%98%E5%BC%82%E6%A3%80%E6%B5%8B)
     - [结构变异检测](#%E7%BB%93%E6%9E%84%E5%8F%98%E5%BC%82%E6%A3%80%E6%B5%8B)
-  - [BAM File Utilities](#bam-file-utilities)
-  - [VCF File Utilities](#vcf-file-utilities)
-  - [GFF BED File Utilities](#gff-bed-file-utilities)
-  - [Variant Simulation](#variant-simulation)
-  - [Variant Prediction/Annotation](#variant-predictionannotation)
-  - [Python Modules](#python-modules)
-    - [Data](#data)
-    - [Tools](#tools)
-- [Visualization](#visualization)
-  - [Genome Browsers / Gene Diagrams](#genome-browsers--gene-diagrams)
-  - [Circos Related](#circos-related)
+  - [BAM文件工具](#bam%E6%96%87%E4%BB%B6%E5%B7%A5%E5%85%B7)
+  - [VCF文件工具](#vcf%E6%96%87%E4%BB%B6%E5%B7%A5%E5%85%B7)
+  - [GFF/BED文件工具](#gffbed%E6%96%87%E4%BB%B6%E5%B7%A5%E5%85%B7)
+  - [变异模拟](#%E5%8F%98%E5%BC%82%E6%A8%A1%E6%8B%9F)
+  - [变异注释](#%E5%8F%98%E5%BC%82%E6%B3%A8%E9%87%8A)
+  - [Python包](#python%E5%8C%85)
+    - [数据](#%E6%95%B0%E6%8D%AE)
+    - [工具](#%E5%B7%A5%E5%85%B7)
+- [可视化](#%E5%8F%AF%E8%A7%86%E5%8C%96)
+  - [基因组浏览器/基因图](#%E5%9F%BA%E5%9B%A0%E7%BB%84%E6%B5%8F%E8%A7%88%E5%99%A8%E5%9F%BA%E5%9B%A0%E5%9B%BE)
+  - [Circos相关](#circos%E7%9B%B8%E5%85%B3)
+  - [染色体可视化](#%E6%9F%93%E8%89%B2%E4%BD%93%E5%8F%AF%E8%A7%86%E5%8C%96)
+  - [Venn图](#venn%E5%9B%BE)
 - [Database Access](#database-access)
 - [Resources](#resources)
   - [Becoming a Bioinformatician](#becoming-a-bioinformatician)
@@ -131,12 +133,12 @@
 - **[Seqtk](https://github.com/lh3/seqtk)** :thumbsup:- 处理FASTA/FASTQ格式中序列的工具箱
 - **[smof](https://github.com/incertae-sedis/smof)** - UNIX-风格的FASTA操作工具
 
-### Data Analysis
+### 数据分析
 
-The following items allow for scalable genomic analysis by introducing specialized databases.
+以下条目通过引入专门数据库支持可扩展的基因组分析
 
-- **[Hail](https://github.com/hail-is/hail)** - Scalable genomic analysis.
-- **[GLNexus](https://github.com/dnanexus-rnd/GLnexus)** - Scalable gVCF merging and joint variant calling for population sequencing projects. [ [paper-2018](https://www.biorxiv.org/content/10.1101/343970v1.abstract) ]
+- **[Hail](https://github.com/hail-is/hail)** - 可扩展基因组分析(类似pandas？)
+- **[GLNexus](https://github.com/dnanexus-rnd/GLnexus)** - 群体测序项目中可扩展gVCF合并以及联合变异检测[ [paper-2018](https://www.biorxiv.org/content/10.1101/343970v1.abstract) ]
 
 ### 序列比对
 
@@ -161,6 +163,7 @@ The following items allow for scalable genomic analysis by introducing specializ
 
 - **[freebayes](https://github.com/ekg/freebayes)** - 基于贝叶斯单倍型多态性发现及基因分型 [ [web](http://arxiv.org/abs/1207.3907) ]
 - **[GATK](https://github.com/broadgsa/gatk)** :thumbsup:- 高通量数据变异检测金标准[ [web](https://software.broadinstitute.org/gatk) ]
+- **[deepvariant](https://github.com/google/deepvariant)** - 深度学习变异检测 [ [paper-2018](https://doi.org/10.1038/nbt.4235) ]
 
 #### 结构变异检测
 
@@ -171,85 +174,96 @@ The following items allow for scalable genomic analysis by introducing specializ
 - **[smoove](https://github.com/brentp/smoove)** - 结构变异检测，基因分型
 - **[cnvkit](https://github.com/etal/cnvkit)** - 靶向DNA测序拷贝数变异检测 [ [paper-2016](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004873 ) ]
 
-### BAM File Utilities
+### BAM文件工具
 
 - **[samtools](https://github.com/samtools/samtools)** :thumbsup:- 操作高通量测序数据的工具箱 [ [paper-2009](https://pubmed.ncbi.nlm.nih.gov/19505943) | [web](http://htslib.org) ]
-- **[Bamtools](https://github.com/pezmaster31/bamtools)** - Collection of tools for working with BAM files. [ [paper-2011](https://academic.oup.com/bioinformatics/article/27/12/1691/255399) ]
+- **[Bamtools](https://github.com/pezmaster31/bamtools)** - 处理BAM文件工具集 [ [paper-2011](https://academic.oup.com/bioinformatics/article/27/12/1691/255399) ]
 - **[bam toolbox](https://github.com/AndersenLab/bam-toolbox)** MtDNA:Nuclear Coverage; BAM Toolbox can output the ratio of MtDNA:nuclear coverage, a proxy for mitochondrial content.
-- **[mergesam](https://github.com/DarwinAwardWinner/mergesam)** - Automate common SAM & BAM conversions.
-- **[mosdepth](https://github.com/brentp/mosdepth)** - fast BAM/CRAM depth calculation for WGS, exome, or targeted sequencing. [ [paper-2017](https://pubmed.ncbi.nlm.nih.gov/29096012/) ]
-- **[SAMstat](https://github.com/TimoLassmann/samstat)** - Displaying sequence statistics for next-generation sequencing. [ [paper-2010](https://academic.oup.com/bioinformatics/article/27/1/130/201972) | [web](http://samstat.sourceforge.net) ]
-- **[Somalier](https://github.com/brentp/mosdepth)** - Fast sample-swap and relatedness checks on BAMs/CRAMs/VCFs/GVCFs. [ [paper-2020](https://pubmed.ncbi.nlm.nih.gov/32664994) ]
-- **[Telseq](https://github.com/zd1/telseq)** - Telseq is a tool for estimating telomere length from whole genome sequence data. [ [paper-2014](https://academic.oup.com/nar/article/42/9/e75/1249448) ]
+- **[mergesam](https://github.com/DarwinAwardWinner/mergesam)** - 自动SAM/BAM文件转换
+- **[mosdepth](https://github.com/brentp/mosdepth)** - WGS，WES，pannel快速BAM/CRAM测序深度计算 [ [paper-2017](https://pubmed.ncbi.nlm.nih.gov/29096012/) ]
+- **[SAMstat](https://github.com/TimoLassmann/samstat)** - SAM/BAM文件统计 [ [paper-2010](https://academic.oup.com/bioinformatics/article/27/1/130/201972) | [web](http://samstat.sourceforge.net) ]
+- **[Somalier](https://github.com/brentp/somalier)** - BAMs/CRANs/VCFs/GVCFs 快速样本交换及相关性检查 [ [paper-2020](https://pubmed.ncbi.nlm.nih.gov/32664994) ]
+- **[Telseq](https://github.com/zd1/telseq)** - 从全基因组测序数据中估计端粒长度 [ [paper-2014](https://academic.oup.com/nar/article/42/9/e75/1249448) ]
 
-### VCF File Utilities
+### VCF文件工具
 
-- **[bcftools](https://github.com/samtools/bcftools)** - Set of tools for manipulating VCF files. [ [paper-2016](https://pubmed.ncbi.nlm.nih.gov/26826718) | [paper-2017](https://pubmed.ncbi.nlm.nih.gov/28205675) | [web](http://samtools.github.io/bcftools) ]
-- **[vcfanno](https://github.com/brentp/vcfanno)** - Annotate a VCF with other VCFs/BEDs/tabixed files. [ [paper-2016](https://pubmed.ncbi.nlm.nih.gov/27250555) ]
-- **[vcflib](https://github.com/vcflib/vcflib)** - A C++ library for parsing and manipulating VCF files.
-- **[vcftools](https://github.com/vcftools/vcftools)** - VCF manipulation and statistics (e.g. linkage disequilibrium, allele frequency, Fst). [ [paper-2011](https://pubmed.ncbi.nlm.nih.gov/21653522) ]
+- **[bcftools](https://github.com/samtools/bcftools)**:thumbsup: - VCF文件操作的工具及 [ [paper-2016](https://pubmed.ncbi.nlm.nih.gov/26826718) | [paper-2017](https://pubmed.ncbi.nlm.nih.gov/28205675) | [web](http://samtools.github.io/bcftools) ]
+- **[vcfanno](https://github.com/brentp/vcfanno)** - 使用VCFs/BEDs/tabixed文件注释VCF [ [paper-2016](https://pubmed.ncbi.nlm.nih.gov/27250555) ]
+- **[vcflib](https://github.com/vcflib/vcflib)** - 解析和操作VCF文件的C++库
+- **[vcftools](https://github.com/vcftools/vcftools)** - VCF操作和统计(比如连锁不平衡，等位基因频率，Fst)[ [paper-2011](https://pubmed.ncbi.nlm.nih.gov/21653522) ]
 
-### GFF BED File Utilities
+### GFF/BED文件工具
 
-- **[gffutils](https://github.com/daler/gffutils)** - GFF and GTF file manipulation and interconversion. [ [web](http://daler.github.io/gffutils) ]
-- **[BEDOPS](https://bedops.readthedocs.io/en/latest/index.html)** - The fast, highly scalable and easily-parallelizable genome analysis toolkit. [ [paper-2012](https://academic.oup.com/bioinformatics/article/28/14/1919/218826) ]
-- **[Bedtools2](https://github.com/arq5x/bedtools2)** - A Swiss Army knife for genome arithmetic. [ [paper-2010](https://pubmed.ncbi.nlm.nih.gov/20110278) | [paper-2014](https://pubmed.ncbi.nlm.nih.gov/25199790) | [web](https://bedtools.readthedocs.io) ]
+- **[gffutils](https://github.com/daler/gffutils)** - GFF和GTF文件操作工具及相互转换[ [web](http://daler.github.io/gffutils) ]
+- **[BEDOPS](https://github.com/bedops/bedops)** - 快速，高度可扩展且方便并行处理的基因组分析工具 [ [paper-2012](https://academic.oup.com/bioinformatics/article/28/14/1919/218826) ]
+- **[Bedtools2](https://github.com/arq5x/bedtools2)** - 基因组分析的“瑞士军刀” [ [paper-2010](https://pubmed.ncbi.nlm.nih.gov/20110278) | [paper-2014](https://pubmed.ncbi.nlm.nih.gov/25199790) | [web](https://bedtools.readthedocs.io) ]
 
-### Variant Simulation
+### 变异模拟
 
-- **[Bam Surgeon](https://github.com/adamewing/bamsurgeon)** - Tools for adding mutations to existing `.bam` files, used for testing mutation callers. [ [web](https://popmodels.cancercontrol.cancer.gov/gsr/packages/bamsurgeon) ]
-- **[wgsim](https://github.com/lh3/wgsim)** - **Comes with samtools!** - Reads simulator. [ [web](https://popmodels.cancercontrol.cancer.gov/gsr/packages/wgsim) ]
+- **[Bam Surgeon](https://github.com/adamewing/bamsurgeon)** -在已有`.bam`文件中添加变异，用于变异检测工具测试 [ [web](https://popmodels.cancercontrol.cancer.gov/gsr/packages/bamsurgeon) ]
+- **[wgsim](https://github.com/lh3/wgsim)** - **Comes with samtools!** - 测序数据模拟 [ [web](https://popmodels.cancercontrol.cancer.gov/gsr/packages/wgsim) ]
 
-### Variant Prediction/Annotation
+### 变异注释
 
-- **[SIFT](https://github.com/teamdfir/sift)** - Predicts whether an amino acid substitution affects protein function. [ [paper-2003](https://pubmed.ncbi.nlm.nih.gov/12824425) | [web](http://sift.jcvi.org) ]
-- **[SnpEff](https://github.com/pcingola/SnpEff)** - Genetic variant annotation and effect prediction toolbox. [ [paper-2012](https://www.tandfonline.com/doi/full/10.4161/fly.19695) | [web](https://pcingola.github.io/SnpEff) ]
+- **[SIFT](https://github.com/teamdfir/sift)** - 预测氨基酸替换是否影响蛋白质功能 [ [paper-2003](https://pubmed.ncbi.nlm.nih.gov/12824425) | [web](http://sift.jcvi.org) ]
+- **[SnpEff](https://github.com/pcingola/SnpEff)** - 遗传变异注释及效果预测工具箱 [ [paper-2012](https://www.tandfonline.com/doi/full/10.4161/fly.19695) | [web](https://pcingola.github.io/SnpEff) ]
+- **[SpliceAI](https://github.com/Illumina/SpliceAI)** - 预测遗传变异对剪切的影响[ [Cell-2020 ](https://linkinghub.elsevier.com/retrieve/pii/S0092867418316295) ]
+- **[ensembl-vep](https://github.com/Ensembl/ensembl-vep)** - 遗传变异注释和效果预测
 
-### Python Modules
+### Python包
 
-#### Data
+#### 数据
 
-- **[cruzdb](https://github.com/brentp/cruzdb)** - Pythonic access to the UCSC Genome database. [ [paper-2013](https://academic.oup.com/bioinformatics/article/29/23/3003/248468) ]
-- **[pyensembl](https://github.com/openvax/pyensembl)** - Pythonic Access to the Ensembl database. [ [web](https://pyensembl.readthedocs.io/en/latest/pyensembl.html) ]
-- **[bioservices](https://github.com/cokelaer/bioservices)** - Access to Biological Web Services from Python. [ [paper-2013](https://academic.oup.com/bioinformatics/article/29/24/3241/194040) | [web](http://bioservices.readthedocs.io) ]
+- **[cruzdb](https://github.com/brentp/cruzdb)** - Python访问USCC数据库 [ [paper-2013](https://academic.oup.com/bioinformatics/article/29/23/3003/248468) ]
+- **[pyensembl](https://github.com/openvax/pyensembl)** - Python访问Ensembl数据库 [ [web](https://pyensembl.readthedocs.io/en/latest/pyensembl.html) ]
+- **[bioservices](https://github.com/cokelaer/bioservices)** - Python访问生物Web服务，如KEGG, BLAST [ [paper-2013](https://academic.oup.com/bioinformatics/article/29/24/3241/194040) | [web](http://bioservices.readthedocs.io) ]
 
-#### Tools
+#### 工具
 
-- **[cyvcf](https://github.com/arq5x/cyvcf)** - A port of [pyVCF](https://github.com/jamescasbon/PyVCF) using Cython for speed.
-- **[cyvcf2](https://github.com/brentp/cyvcf2)** - Cython + HTSlib == fast VCF parsing; even faster parsing than pyVCF. [ [paper-2017](https://pubmed.ncbi.nlm.nih.gov/28165109) | [web](https://brentp.github.io/cyvcf2) ]
-- **[pyBedTools](https://github.com/daler/pybedtools)** - Python wrapper for [bedtools](https://github.com/arq5x/bedtools). [ [paper-2011](https://pubmed.ncbi.nlm.nih.gov/21949271) | [web](http://daler.github.io/pybedtools) ]
-- **[pyfaidx](https://github.com/mdshw5/pyfaidx)** - Pythonic access to FASTA files.
-- **[pysam](https://github.com/pysam-developers/pysam)** - Python wrapper for [samtools](https://github.com/samtools/samtools). [ [web](https://pysam.readthedocs.io/en/latest/api.html) ]
-- **[pyVCF](https://github.com/jamescasbon/PyVCF)** - A VCF Parser for Python. [ [web](http://pyvcf.readthedocs.org/en/latest/index.html) ]
+- **[cyvcf](https://github.com/arq5x/cyvcf)** -  [pyVCF](https://github.com/jamescasbon/PyVCF) 使用Cython加速版本
+- **[cyvcf2](https://github.com/brentp/cyvcf2)** - Cython + HTSlib == 快速解析VCF，比pyVCF还快 [ [paper-2017](https://pubmed.ncbi.nlm.nih.gov/28165109) | [web](https://brentp.github.io/cyvcf2) ]
+- **[pyBedTools](https://github.com/daler/pybedtools)** - Python封装的bedtools](https://github.com/arq5x/bedtools). [ [paper-2011](https://pubmed.ncbi.nlm.nih.gov/21949271) | [web](http://daler.github.io/pybedtools) ]
+- **[pyfaidx](https://github.com/mdshw5/pyfaidx)** - Python访问fasta文件
+- **[pysam](https://github.com/pysam-developers/pysam)** - Python封装的[samtools](https://github.com/samtools/samtools). [ [web](https://pysam.readthedocs.io/en/latest/api.html) ]
+- **[pyVCF](https://github.com/jamescasbon/PyVCF)** - Python解析VCF文件 [ [web](http://pyvcf.readthedocs.org/en/latest/index.html) ]
 
-## Visualization
+## 可视化
 
-### Genome Browsers / Gene Diagrams
+### 基因组浏览器/基因图
 
-The following tools can be used to visualize genomic data or for constructing customized visualizations of genomic data including sequence data from DNA-Seq, RNA-Seq, and ChIP-Seq, variants, and more.
+下列工具可用来可视化基因组数据，包括DNA-seq，RNA-seq，ChIP-seq，变异等。
 
-- **[Squiggle](https://github.com/Lab41/squiggle)** - Easy-to-use DNA sequence visualization tool that turns FASTA files into browser-based visualizations. [ [paper-2018](https://pubmed.ncbi.nlm.nih.gov/30247632) | [web](https://squiggle.readthedocs.io/en/latest/) ]
-- **[biodalliance](https://github.com/dasmoth/dalliance)** - Embeddable genome viewer. Integration data from a wide variety of sources, and can load data directly from popular genomics file formats including bigWig, BAM, and VCF.
-  [ [paper-2011](https://pubmed.ncbi.nlm.nih.gov/21252075) | [web](http://www.biodalliance.org) ]
-- **[BioJS](https://github.com/biojs/biojs)** - BioJS is a library of over hundred JavaScript components enabling you to visualize and process data using current web technologies. [ [paper-2014](https://pubmed.ncbi.nlm.nih.gov/25075290/) | [web](http://biojs.net/) ]
-- **[Circleator](https://github.com/jonathancrabtree/Circleator)** - Flexible circular visualization of genome-associated data with BioPerl and SVG. [ [paper-2014](https://pubmed.ncbi.nlm.nih.gov/25075113) ]
-- **[DNAism](https://github.com/drio/dnaism)** - Horizon chart D3-based JavaScript library for DNA data. [ [paper-2016](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-0891-2) | [web](http://drio.github.io/dnaism/) ]
-- **[IGV js](https://github.com/igvteam/igv)** - Java-based browser. Fast, efficient, scalable visualization tool for genomics data and annotations. Handles a large variety of formats. [ [paper-2019](https://pubmed.ncbi.nlm.nih.gov/31099383) | [web](https://software.broadinstitute.org/software/igv) ]
-- **[Island Plot](https://github.com/lairdm/islandplot)** - D3 JavaScript based genome viewer. Constructs SVGs. [ [paper-2015](https://pubmed.ncbi.nlm.nih.gov/25916842/) ]
-- **[JBrowse](https://github.com/GMOD/jbrowse)** - JavaScript genome browser that is highly customizable via plugins and track customizations. [ [paper-2016](https://pubmed.ncbi.nlm.nih.gov/27072794) | [web](http://jbrowse.org/) ]
-- **[PHAT](https://github.com/chgibb/PHAT)** - Point and click, cross platform suite for analysing and visualizing next-generation sequencing datasets. [ [paper-2018](https://pubmed.ncbi.nlm.nih.gov/30561651) | [web](https://chgibb.github.io/PHATDocs) ]
-- **[pileup.js](https://github.com/hammerlab/pileup.js)** - JavaScript library that can be used to generate interactive and highly customizable web-based genome browsers. [ [paper-2016](https://pubmed.ncbi.nlm.nih.gov/27153605) ]
-- **[scribl](https://github.com/chmille4/Scribl)** - JavaScript library for drawing canvas-based gene diagrams. [ [paper-2012](https://pubmed.ncbi.nlm.nih.gov/23172864) | [web](http://chmille4.github.io/Scribl) ]
-- **Lucid Align** - A modern sequence alignment viewer. [ [web](https://lucidalign.com) ]
+- **[Squiggle](https://github.com/Lab41/squiggle)** - DNA序列可视化 [ [paper-2018](https://pubmed.ncbi.nlm.nih.gov/30247632) | [web](https://squiggle.readthedocs.io/en/latest/) ]
+- **[biodalliance](https://github.com/dasmoth/dalliance)** - 轻量级基因组浏览器，支持多种经典的基因组文件格式，比如bigWig，BAM，VCF等[ [paper-2011](https://pubmed.ncbi.nlm.nih.gov/21252075) | [web](http://www.biodalliance.org) ]
+- **[BioJS](https://github.com/biojs/biojs)** - 收录生物学数据可视化的JS组件库 [ [paper-2014](https://pubmed.ncbi.nlm.nih.gov/25075290/) | [web](http://biojs.net/) ]
+- **[Circleator](https://github.com/jonathancrabtree/Circleator)** - 使用BioPerl和SVG环形可视化基因组相关数据 [ [paper-2014](https://pubmed.ncbi.nlm.nih.gov/25075113) ]
+- **[DNAism](https://github.com/drio/dnaism)** - 基于D3的DNA数据可视化JS库 [ [paper-2016](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-0891-2) | [web](http://drio.github.io/dnaism/) ]
+- **[IGV js](https://github.com/igvteam/igv)**:thumbsup: - 基于Java的基因组浏览器，同时提供JS版本。支持多种数据格式 [ [paper-2019](https://pubmed.ncbi.nlm.nih.gov/31099383) | [web](https://software.broadinstitute.org/software/igv) ]
+- **[Island Plot](https://github.com/lairdm/islandplot)** - 基于D3的基因组浏览器[ [paper-2015](https://pubmed.ncbi.nlm.nih.gov/25916842/) ]
+- **[JBrowse](https://github.com/GMOD/jbrowse)** - 通过插件和track个性化高度定制的基因组浏览器 [ [paper-2016](https://pubmed.ncbi.nlm.nih.gov/27072794) | [web](http://jbrowse.org/) ]
+- **[PHAT](https://github.com/chgibb/PHAT)** - 病原-宿主可视化分析工具 [ [paper-2018](https://pubmed.ncbi.nlm.nih.gov/30561651) | [web](https://chgibb.github.io/PHATDocs) ]
+- **[pileup.js](https://github.com/hammerlab/pileup.js)** - 可交互，高度定制的基于web的基因组浏览器JS库 [ [paper-2016](https://pubmed.ncbi.nlm.nih.gov/27153605) ]
+- **[scribl](https://github.com/chmille4/Scribl)** - HTML5 canvas 基因组图形库 [ [paper-2012](https://pubmed.ncbi.nlm.nih.gov/23172864) | [web](http://chmille4.github.io/Scribl) ]
+- **[pyGenomeTracks](https://github.com/deeptools/pyGenomeTracks)** - Python绘制基因组浏览器track
+- **[WashU EpiGenomoe Browser](https://github.com/epgg/eg)** - 表观基因组浏览器 [ [Nucleid Acids Research 2019](https://academic.oup.com/nar/article/47/W1/W158/5511467) | [web](https://epigenomegateway.wustl.edu/) ]
 
-### Circos Related
+### Circos相关
 
-- **[Circos](https://github.com/vigsterkr/circos)** - Perl package for circular plots, which are well suited for genomic rearrangements. [ [paper-2009](https://pubmed.ncbi.nlm.nih.gov/19541911) | [web](http://circos.ca) ]
-- **ClicO FS** - An interactive web-based service of Circos. [ [paper-2015](https://pubmed.ncbi.nlm.nih.gov/26227146) ]
-- **OmicCircos** - R package for circular plots for omics data. [ [paper-2014](https://pubmed.ncbi.nlm.nih.gov/24526832) | [web](http://www.bioconductor.org/packages/release/bioc/html/OmicCircos.html) ]
-- **J-Circos** - A Java application for doing interactive work with circos plots. [ [paper-2014](https://pubmed.ncbi.nlm.nih.gov/25540184) | [web](http://www.australianprostatecentre.org/research/software/jcircos) ]
-- **[rCircos](https://bitbucket.org/henryhzhang/rcircos/src/master/)** - R package for circular plots. [ [paper-2013](https://pubmed.ncbi.nlm.nih.gov/23937229) | [web](http://watson.nci.nih.gov/cran_mirror/web/packages/RCircos/index.html) ]
-- **[fujiplot](https://github.com/mkanai/fujiplot)** - A circos representation of multiple GWAS results. [ [paper-2018](https://www.nature.com/articles/s41588-018-0047-6) ]
+- **[Circos](https://github.com/vigsterkr/circos)** - 基因组数据环形可视化Perl包 [ [paper-2009](https://pubmed.ncbi.nlm.nih.gov/19541911) | [web](http://circos.ca) ]
+- **OmicCircos** - 组学数据环形可视化R包 [ [paper-2014](https://pubmed.ncbi.nlm.nih.gov/24526832) | [web](http://www.bioconductor.org/packages/release/bioc/html/OmicCircos.html) ]
+- **J-Circos** - Circos Java版 [ [paper-2014](https://pubmed.ncbi.nlm.nih.gov/25540184) | [web](http://www.australianprostatecentre.org/research/software/jcircos) ]
+- **[circlize](https://github.com/jokergoo/circlize)**:thumbsup: - Circos R包 [ [paper-2014](https://www.ncbi.nlm.nih.gov/pubmed/24930139) ]
+- **[fujiplot](https://github.com/mkanai/fujiplot)** - GWAS结果Circos展示 [ [paper-2018](https://www.nature.com/articles/s41588-018-0047-6) ]
+- **[circosJS](https://github.com/nicgirault/circosJS)**:thumbsup: - 基于d3的Circos JS库
+
+### 染色体可视化
+
+- **[ideogram](https://github.com/eweitz/ideogram)** - 染色体可视化的JS库
+- **[karyoploteR](https://github.com/bernatgel/karyoploteR)** - 可视化染色体/track的R包
+
+### Venn图
+
+- **[UpSetR](https://github.com/hms-dbmi/UpSetR)**:thumbsup: - 另一种展示集合交并集的方式 [ [Bioinformatics-2017](https://academic.oup.com/bioinformatics/article/33/18/2938/3884387) ]
 
 ## Database Access
 
