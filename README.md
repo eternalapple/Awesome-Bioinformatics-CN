@@ -41,11 +41,11 @@
   - [Circos相关](#circos%E7%9B%B8%E5%85%B3)
   - [染色体可视化](#%E6%9F%93%E8%89%B2%E4%BD%93%E5%8F%AF%E8%A7%86%E5%8C%96)
   - [Venn图](#venn%E5%9B%BE)
-- [Database Access](#database-access)
-- [Resources](#resources)
-  - [Becoming a Bioinformatician](#becoming-a-bioinformatician)
-  - [Bioinformatics on GitHub](#bioinformatics-on-github)
-  - [Sequencing](#sequencing)
+- [数据库访问](#%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BF%E9%97%AE)
+- [资源](#%E8%B5%84%E6%BA%90)
+  - [成为一个生物信息学家](#%E6%88%90%E4%B8%BA%E4%B8%80%E4%B8%AA%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6%E5%AE%B6)
+  - [其它Awesome Bioinformatics](#%E5%85%B6%E5%AE%83awesome-bioinformatics)
+  - [测序](#%E6%B5%8B%E5%BA%8F)
   - [RNA-Seq](#rna-seq)
   - [ChIP-Seq](#chip-seq)
   - [YouTube Channels and Playlists](#youtube-channels-and-playlists)
@@ -265,49 +265,49 @@
 
 - **[UpSetR](https://github.com/hms-dbmi/UpSetR)**:thumbsup: - 另一种展示集合交并集的方式 [ [Bioinformatics-2017](https://academic.oup.com/bioinformatics/article/33/18/2938/3884387) ]
 
-## Database Access
+## 数据库访问
 
-- [Entrez Direct: E-utilities on the UNIX command line](http://www.ncbi.nlm.nih.gov/books/NBK179288/) - UNIX command line tools to access NCBI's databases programmatically. Instructions to install and examples are found in the link.
+- [Entrez Direct: E-utilities on the UNIX command line](http://www.ncbi.nlm.nih.gov/books/NBK179288/) - UNIX命令行工具访问NCBI数据库
 
-## Resources
+## 资源
 
-### Becoming a Bioinformatician
+### 成为一个生物信息学家
 
-- [What is a bioinformatician](http://blog.fejes.ca/?p=2418)
-- [Bioinformatics Curriculum Guidelines: Toward a Definition of Core Competencies](http://www.ploscompbiol.org/article/info:doi%2F10.1371%2Fjournal.pcbi.1003496)
-- [Top N Reasons To Do A Ph.D. or Post-Doc in Bioinformatics/Computational Biology](http://caseybergman.wordpress.com/2012/07/31/top-n-reasons-to-do-a-ph-d-or-post-doc-in-bioinformaticscomputational-biology/)
-- [A 10-Step Guide to Party Conversation For Bioinformaticians](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-1-104) - Here is a step-by-step guide on how to convey concepts to people not involved in the field when asked the question: 'So, what do you do?'
-- [A History Of Bioinformatics (In The Year 2039)](https://www.youtube.com/watch?v=uwsjwMO-TEA) - A talk by C. Titus Brown on his take of looking back at bioinformatics from the year 2039. His notes for this talk can be found [here](http://ivory.idyll.org/blog/2014-bosc-keynote.html).
-- [A farewell to bioinformatics](http://madhadron.com/posts/2012-03-26-a-farewell-to-bioinformatics.html) - A critical view of the state of bioinformatics.
-- [A Series of Interviews with Notable Bioinformaticians](http://www.acgt.me/blog/2014/3/25/101-questions-a-new-series-of-interviews-with-notable-bioinformaticians) - Dr. Keith Bradnam "thought it might be instructive to ask a simple series of questions to a bunch of notable bioinformaticians to assess their feelings on the current state of bioinformatics research, and maybe get any tips they have about what has been useful to their bioinformatics careers."
-- [Open Source Society University on Bioinformatics](https://github.com/ossu/bioinformatics) - Solid path for those of you who want to complete a Bioinformatics course on your own time, for free, with courses from the best universities in the World.
-- [Rosalind](http://rosalind.info/) - Rosalind is a platform for learning bioinformatics through problem solving.
-- [A guide for the lonely bioinformatician](http://www.opiniomics.org/a-guide-for-the-lonely-bioinformatician/) - This guide is aimed at bioinformaticians, and is meant to guide them towards better career development.
-- [A brief history of bioinformatics](https://doi.org/10.1093/bib/bby063)
+- [什么是生物信息学家(英文)](http://blog.fejes.ca/?p=2418)
+- [生物信息学课程指南：定义核心竞争力(英文)](http://www.ploscompbiol.org/article/info:doi%2F10.1371%2Fjournal.pcbi.1003496)
+- [读生物信息学/计算生物学博士/博士后的N个理由(英文)](http://caseybergman.wordpress.com/2012/07/31/top-n-reasons-to-do-a-ph-d-or-post-doc-in-bioinformaticscomputational-biology/)
+- [生物信息学家聚会交流的10步指南(英文)](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-1-104) - 这是当领域外的人问"你在做什么？"介绍专业的概念的一步步指南。
+- [生物信息学简史 (2039年)(英文)](https://www.youtube.com/watch?v=uwsjwMO-TEA) - C. Titus Brown回归2039年以来的生物信息学，演讲笔记参考[这里](http://ivory.idyll.org/blog/2014-bosc-keynote.html).
+- [再见生物信息学(英文)](http://madhadron.com/posts/2012-03-26-a-farewell-to-bioinformatics.html) - 对生物信息学的批判观点
+- [著名生物信息学系列采访](http://www.acgt.me/blog/2014/3/25/101-questions-a-new-series-of-interviews-with-notable-bioinformaticians) - 著名生物信息学家采访，对当今生物信息学研究现状的看法及职业规划有帮助
+- [开源的生物信息学社会大学](https://github.com/ossu/bioinformatics) - 生物信息学免费课程
+- [Rosalind](http://rosalind.info/) - Rosalind是一个通过解决问题学习生物信息学的平台
+- [写给孤独生物信息学家的指南(英文)](http://www.opiniomics.org/a-guide-for-the-lonely-bioinformatician/) - 本指南针对生物信息学家的职业发展。
+- [生物信息学简史](https://doi.org/10.1093/bib/bby063)
 
-### Bioinformatics on GitHub
+### 其它Awesome Bioinformatics
 
-- [Awesome-alternative-splicing](https://github.com/HussainAther/awesome-alternative-splicing) - List of resources on alternative splicing including software, databases, and other tools..
+- [Awesome-alternative-splicing](https://github.com/HussainAther/awesome-alternative-splicing) - 可变剪切软件，数据库，工具的资源库
 
-### Sequencing
+### 测序
 
-- [Next-Generation Sequencing Technologies - Elaine Mardis (2014)](https://youtu.be/6Is3W7JkFp8) [1:34:35] - Excellent (technical) overview of next-generation and third-generation sequencing technologies, along with some applications in cancer research.
-- [Annotated bibliography of \*Seq assays](https://liorpachter.wordpress.com/seq/) - List of ~100 papers on various sequencing technologies and assays ranging from transcription to transposable element discovery.
-- [For all you seq... (PDF)](http://www.illumina.com/content/dam/illumina-marketing/documents/applications/ngs-library-prep/ForAllYouSeqMethods.pdf) (3456x5471) - Massive infographic by Illumina on illustrating how many sequencing techniques work. Techniques cover protein-protein interactions, RNA transcription, RNA-protein interactions, RNA low-level detection, RNA modifications, RNA structure, DNA rearrangements and markers, DNA low-level detection, epigenetics, and DNA-protein interactions. References included.
+- [下一代测序技术 - Elaine Mardis (2014)](https://youtu.be/6Is3W7JkFp8) [1:34:35] - 二代和三代测序技术的综述，以及在癌症研究中的应用
+- [Annotated bibliography of \*Seq assays](https://liorpachter.wordpress.com/seq/) - 约100篇论文列表，涉及从转录到可转座因子发现的各种测序技术
+- [For all you seq... (PDF)](http://www.illumina.com/content/dam/illumina-marketing/documents/applications/ngs-library-prep/ForAllYouSeqMethods.pdf) (3456x5471):thumbsup: - Illumina提供的测序远离示意图，涵盖蛋白质相互作用，RNA转录，RNA-protein相互作用，低丰度RNA检测，RNA修饰，RNA结构，DNA重排，低丰度DNA检测，表观遗传学，DNA-蛋白质互作。
 
 ### RNA-Seq
 
-- [Review papers on RNA-seq (Biostars)](https://www.biostars.org/p/52152/) - Includes lots of seminal papers on RNA-seq and analysis methods.
-- [Informatics for RNA-seq: A web resource for analysis on the cloud](https://github.com/griffithlab/rnaseq_tutorial) - Educational resource on performing RNA-seq analysis in the cloud using Amazon AWS cloud services. Topics include preparing the data, preprocessing, differential expression, isoform discovery, data visualization, and interpretation.
+- [RNA-seq的综述文章 (Biostars)](https://www.biostars.org/p/52152/) - 包括RNA-seq和分析方法的开创性文章
+- [Informatics for RNA-seq: A web resource for analysis on the cloud](https://github.com/griffithlab/rnaseq_tutorial) - 使用亚马逊云服务分析RNA-seq的教育资源，包括数据准备，预处理，差异表达， 异构体发现，数据可视化和解释
 - [RNA-seqlopedia](http://rnaseq.uoregon.edu/) - RNA-seqlopedia provides an awesome overview of RNA-seq and of the choices necessary to carry out a successful RNA-seq experiment.
 - [A survey of best practices for RNA-seq data analysis](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0881-8) - Gives awesome roadmap for RNA-seq computational analyses, including challenges/obstacles and things to look out for, but also how you might integrate RNA-seq data with other data types.
 - [Stories from the Supplement](https://www.youtube.com/watch?v=5NiFibnbE8o) [46:39] - Dr. Lior Pachter shares his stories from the supplement for well-known RNA-seq analysis software CuffDiff and [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) and explains some of their methodologies.
-- [List of RNA-seq Bioinformatics Tools](https://en.wikipedia.org/wiki/List_of_RNA-Seq_bioinformatics_tools) - Extensive list on Wikipedia of RNA-seq bioinformatics tools needed in analysis, ranging from all parts of an analysis pipeline from quality control, alignment, splice analysis, and visualizations.
-- [RNA-seq Analysis](https://github.com/crazyhottommy/RNA-seq-analysis) - [@crazyhottommy](https://github.com/crazyhottommy)'s notes on various steps and considerations when doing RNA-seq analysis.
+- [RNA-seq生物信息学工具](https://en.wikipedia.org/wiki/List_of_RNA-Seq_bioinformatics_tools) - RNA-seq分析工具Wiki列表，包括质控，比对，可变剪切分析和可视化
+- [RNA-seq Analysis](https://github.com/crazyhottommy/RNA-seq-analysis) - [@crazyhottommy](https://github.com/crazyhottommy) 关于RNA-seq分析各步骤及注意事项的笔记
 
 ### ChIP-Seq
 
-- [ChIP-seq analysis notes from Tommy Tang](https://github.com/crazyhottommy/ChIP-seq-analysis) - Resources on ChIP-seq data which include papers, methods, links to software, and analysis.
+- [ChIP-seq analysis notes from Tommy Tang](https://github.com/crazyhottommy/ChIP-seq-analysis) - ChIP-seq数据分析资源，包括文章，方法，软件和分析步骤
 
 ### YouTube Channels and Playlists
 
