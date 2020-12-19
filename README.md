@@ -48,11 +48,11 @@
   - [测序](#%E6%B5%8B%E5%BA%8F)
   - [RNA-Seq](#rna-seq)
   - [ChIP-Seq](#chip-seq)
-  - [YouTube Channels and Playlists](#youtube-channels-and-playlists)
-  - [Blogs](#blogs)
-  - [Miscellaneous](#miscellaneous)
-- [Online networking groups](#online-networking-groups)
-- [License](#license)
+  - [YouTube频道和播放列表](#youtube%E9%A2%91%E9%81%93%E5%92%8C%E6%92%AD%E6%94%BE%E5%88%97%E8%A1%A8)
+  - [博客](#%E5%8D%9A%E5%AE%A2)
+  - [其它](#%E5%85%B6%E5%AE%83)
+- [在线社区](#%E5%9C%A8%E7%BA%BF%E7%A4%BE%E5%8C%BA)
+- [许可](#%E8%AE%B8%E5%8F%AF)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -299,9 +299,9 @@
 
 - [RNA-seq的综述文章 (Biostars)](https://www.biostars.org/p/52152/) - 包括RNA-seq和分析方法的开创性文章
 - [Informatics for RNA-seq: A web resource for analysis on the cloud](https://github.com/griffithlab/rnaseq_tutorial) - 使用亚马逊云服务分析RNA-seq的教育资源，包括数据准备，预处理，差异表达， 异构体发现，数据可视化和解释
-- [RNA-seqlopedia](http://rnaseq.uoregon.edu/) - RNA-seqlopedia provides an awesome overview of RNA-seq and of the choices necessary to carry out a successful RNA-seq experiment.
-- [A survey of best practices for RNA-seq data analysis](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0881-8) - Gives awesome roadmap for RNA-seq computational analyses, including challenges/obstacles and things to look out for, but also how you might integrate RNA-seq data with other data types.
-- [Stories from the Supplement](https://www.youtube.com/watch?v=5NiFibnbE8o) [46:39] - Dr. Lior Pachter shares his stories from the supplement for well-known RNA-seq analysis software CuffDiff and [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) and explains some of their methodologies.
+- [RNA-seqlopedia](http://rnaseq.uoregon.edu/) - RNA-seqlopedia提供RNA-seq综述，以及成功进行RNA-seq实验必要选择
+- [A survey of best practices for RNA-seq data analysis](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0881-8) - RNA-seq计算分析路线图，包括挑战/障碍和注意事项，以及如何整合RNA-seq数据和其它数据类型
+- [Stories from the Supplement](https://www.youtube.com/watch?v=5NiFibnbE8o) [46:39] - Lior Pachter分享著名RNA-seq分析软件CuffDiff和Cufflinks背后的故事及方法学
 - [RNA-seq生物信息学工具](https://en.wikipedia.org/wiki/List_of_RNA-Seq_bioinformatics_tools) - RNA-seq分析工具Wiki列表，包括质控，比对，可变剪切分析和可视化
 - [RNA-seq Analysis](https://github.com/crazyhottommy/RNA-seq-analysis) - [@crazyhottommy](https://github.com/crazyhottommy) 关于RNA-seq分析各步骤及注意事项的笔记
 
@@ -309,38 +309,38 @@
 
 - [ChIP-seq analysis notes from Tommy Tang](https://github.com/crazyhottommy/ChIP-seq-analysis) - ChIP-seq数据分析资源，包括文章，方法，软件和分析步骤
 
-### YouTube Channels and Playlists
+### YouTube频道和播放列表
 
-- [Current Topics in Genome Analysis 2016](https://www.genome.gov/12514288/current-topics-in-genome-analysis-2016-course-syllabus-handouts-and-videos/) - Excellent series of fourteen lectures given at NIH about current topics in genomics ranging from sequence analysis, to sequencing technologies, and even more translational topics such as genomic medicine.
-- [GenomeTV](https://www.youtube.com/user/GenomeTV) - "GenomeTV is NHGRI's collection of official video resources from lectures, to news documentaries, to full video collections of meetings that tackle the research, issues and clinical applications of genomic research."
-- [Leading Strand](https://www.youtube.com/user/LeadingStrand) - Keynote lectures from Cold Spring Harbor Laboratory (CSHL) Meetings. More on [The Leading Strand](http://theleadingstrand.cshl.edu/).
-- [Genomics, Big Data and Medicine Seminar Series](https://www.youtube.com/playlist?list=PLqLDR0CTP9_pboZCk6gR9Zn4kW7h9XWJI) - "Our seminars are dedicated to the critical intersection of GBM, delving into 'bleeding edge' technology and approaches that will deeply shape the future."
-- [Rafael Irizarry's Channel](https://www.youtube.com/user/RafalabChannel/videos) - Dr. Rafael Irizarry's lectures and academic talks on statistics for genomics.
-- [NIH VideoCasting and Podcasting](https://www.youtube.com/user/nihvcast) - "NIH VideoCast broadcasts seminars, conferences and meetings live to a world-wide audience over the Internet as a real-time streaming video." Not exclusively genomics and bioinformatics video but many great talks on domain specific use of bioinformatics and genomics.
+- [Current Topics in Genome Analysis 2016](https://www.genome.gov/12514288/current-topics-in-genome-analysis-2016-course-syllabus-handouts-and-videos/) - NIH举办了精彩的十四讲系列讲座，内容涉及基因组学从序列分析到测序技术。
+- [GenomeTV](https://www.youtube.com/user/GenomeTV) - GnomeTV是NHGRI收录演讲，纪录片，会议的官方视频资源，包括基因组研究，问题和临床应用
+- [Leading Strand](https://www.youtube.com/user/LeadingStrand) - 冷泉港(CSHL)会议主题演讲
+- [Genomics, Big Data and Medicine Seminar Series](https://www.youtube.com/playlist?list=PLqLDR0CTP9_pboZCk6gR9Zn4kW7h9XWJI) - 关于基因组学，大数据，医药的系列研讨会
+- [Rafael Irizarry's Channel](https://www.youtube.com/user/RafalabChannel/videos) - Rafael Irizarry关于基因组统计学的学术报告
+- [NIH VideoCasting and Podcasting](https://www.youtube.com/user/nihvcast) - NIH直播，不仅是基因组学和生物信息学，还包括其它特定领域使用生物信息学和基因组学的精彩演讲
 
-### Blogs
+### 博客
 
-- [ACGT](http://www.acgt.me/) - Dr. Keith Bradnam writes about this "thoughts on biology, genomics, and the ongoing threat to humanity from the bogus use of bioinformatics acroynums."
-- [Opiniomics](http://www.opiniomics.org/) - Dr. Mick Watson write on bioinformatics, genomes, and biology.
-- [Bits of DNA](https://liorpachter.wordpress.com/) - Dr. Lior Pachter writes review and commentary on computational biology.
-- [it is NOT junk](http://www.michaeleisen.org/blog/) - Dr. Michael Eisen writes "a blog about genomes, DNA, evolution, open science, baseball and other important things"
+- [ACGT](http://www.acgt.me/) - Keith Bradnam的博客，主要关于生物学，基因组学以及生物信息学的看法
+- [Opiniomics](http://www.opiniomics.org/) - Mick Watson的博客，主要关于生物信息学，基因组学和生物学
+- [Bits of DNA](https://liorpachter.wordpress.com/) - Lior Pachter的博客，主要关于计算生物学的综述和评论
+- [it is NOT junk](http://www.michaeleisen.org/blog/) - Michael Eisen的博客，主要关于基因组学，DNA，进化
 
-### Miscellaneous
+### 其它
 
-- [The Leek group guide to genomics papers](https://github.com/jtleek/genomicspapers/) - Expertly curated genomics papers to get up to speed on genomics, RNA-seq, statistics (used in genomics), software development, and more.
-- [A New Online Computational Biology Curriculum](https://doi.org/10.1371/journal.pcbi.1003662) - "This article introduces a catalog of several hundred free video courses of potential interest to those wishing to expand their knowledge of bioinformatics and computational biology. The courses are organized into eleven subject areas modeled on university departments and are accompanied by commentary and career advice."
-- [How Perl Saved the Human Genome Project](http://www.foo.be/docs/tpj/issues/vol1_2/tpj0102-0001.html) - An anecdote by Lincoln D. Stein on the importance of the Perl programming language in the Human Genome Project.
-- [Educational Papers from Nature Biotechnology and PLoS Computational Biology](https://liacs.leidenuniv.nl/~hoogeboomhj/mcb/nature_primer.html) - Page of links to primers and short educational articles on various methods used in computational biology and bioinformatics.
-- [The PeerJ Bioinformatics Software Tools Collection](https://peerj.com/collections/45-bioinformatics-software/) - Collection of tools curated by Keith Crandall and Claus White, aimed at collating the most interesting, innovative, and relevant bioinformatics tools articles in PeerJ.
+- [Leek group基因组文献推荐阅读](https://github.com/jtleek/genomicspapers/) - 专家校正的基因组文献帮助快速入门基因组学，RNA-seq，基因组统计学，软件开发
+- [在线计算生物学课程](https://doi.org/10.1371/journal.pcbi.1003662) - 本文介绍了数百个免费视频课程，对那些希望扩展其生物信息学和计算生物学知识的人们来说是必不可少的。这些课程分为11个学科领域，并附有评论和职业建议。
+- [Perl是如何拯救人类基因组计划(英文)](http://www.foo.be/docs/tpj/issues/vol1_2/tpj0102-0001.html) - Lincoln D. Stein的一则轶闻，关于人类基因组计划中Perl语言的重要性
+- [Nature Biotechnology/PLos Computational Biology科普文章(英文)](https://liacs.leidenuniv.nl/~hoogeboomhj/mcb/nature_primer.html) - Nature Biotechnology和PLos Computational Biology上关于计算生物学和生物信息学各种方法的入门的科普文章链接
+- [PeerJ生物信息软件工具集](https://peerj.com/collections/45-bioinformatics-software/) - Keith Crandall and Claus White整理的PeerJ上有趣，创新及香瓜你的生物信息学工具
 
-## Online networking groups
+## 在线社区
 
-- [Bioinformatics (on Discord)](https://discord.com/invite/3uxbPns) - a Discord server for general bioinformatics
-- [r-bioinformatics](https://www.reddit.com/r/bioinformatics/comments/7ndwm1/rbioinformatics_slack_channel_and_an_open_call/) - the official Slack workspace of r/bioinformatics ([send a direct message to apfejes on reddit](https://www.reddit.com/message/compose/?to=apfejes&subject=Request%20to%20join%20the%20r/bioinformatics%20Slack%20group&message=I%20would%20like%20to%20request%20to%20join%20the%20r/bioinformatics%20Slack%20group))
-- [BioinformaticsGRX](https://bioinformaticsgrx.es/) - A community of bioinformaticians based in Granada, Spain
-- [Comunidad de Desarolladores de Software en Bioinformática](https://comunidadbioinfo.github.io/) - A community of bioinformaticians centered in Latin America
-- [COMBINE](https://combine.org.au/) - An Austrialian group for bioinformatics students
+- [Bioinformatics (on Discord)](https://discord.com/invite/3uxbPns) - 生物信息学Discord服务器
+- [r-bioinformatics](https://www.reddit.com/r/bioinformatics/comments/7ndwm1/rbioinformatics_slack_channel_and_an_open_call/) - r/bioinformatics官方Slack
+- [BioinformaticsGRX](https://bioinformaticsgrx.es/) - 位于西班牙格拉纳达的生物信息学家社区
+- [Comunidad de Desarolladores de Software en Bioinformática](https://comunidadbioinfo.github.io/) - 以拉丁美洲为中心的生物信息学家社区
+- [COMBINE](https://combine.org.au/) - 澳大利亚生物信息学学生团体
 
-## License
+## 许可
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
