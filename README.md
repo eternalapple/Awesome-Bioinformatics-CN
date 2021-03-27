@@ -177,13 +177,14 @@
 ### BAM文件工具
 
 - **[samtools](https://github.com/samtools/samtools)** :thumbsup:- 操作高通量测序数据的工具箱 [ [paper-2009](https://pubmed.ncbi.nlm.nih.gov/19505943) | [web](http://htslib.org) ]
-- **[Bamtools](https://github.com/pezmaster31/bamtools)** - 处理BAM文件工具集 [ [paper-2011](https://academic.oup.com/bioinformatics/article/27/12/1691/255399) ]
+- **[bamtools](https://github.com/pezmaster31/bamtools)** - 处理BAM文件工具集 [ [paper-2011](https://academic.oup.com/bioinformatics/article/27/12/1691/255399) ]
 - **[bam toolbox](https://github.com/AndersenLab/bam-toolbox)** MtDNA:Nuclear Coverage; BAM Toolbox can output the ratio of MtDNA:nuclear coverage, a proxy for mitochondrial content.
 - **[mergesam](https://github.com/DarwinAwardWinner/mergesam)** - 自动SAM/BAM文件转换
 - **[mosdepth](https://github.com/brentp/mosdepth)** - WGS，WES，pannel快速BAM/CRAM测序深度计算 [ [paper-2017](https://pubmed.ncbi.nlm.nih.gov/29096012/) ]
 - **[SAMstat](https://github.com/TimoLassmann/samstat)** - SAM/BAM文件统计 [ [paper-2010](https://academic.oup.com/bioinformatics/article/27/1/130/201972) | [web](http://samstat.sourceforge.net) ]
 - **[Somalier](https://github.com/brentp/somalier)** - BAMs/CRANs/VCFs/GVCFs 快速样本交换及相关性检查 [ [paper-2020](https://pubmed.ncbi.nlm.nih.gov/32664994) ]
 - **[Telseq](https://github.com/zd1/telseq)** - 从全基因组测序数据中估计端粒长度 [ [paper-2014](https://academic.oup.com/nar/article/42/9/e75/1249448) ]
+- **[sambamba](https://github.com/biod/sambamba)**:thumbsup: D语言编写的sam/bam处理工具，markdup等操作较samtools快 [ [Bioinformatics-2015](https://academic.oup.com/bioinformatics/article/31/12/2032/214758) ]
 
 ### VCF文件工具
 
