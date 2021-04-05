@@ -190,7 +190,7 @@
 
 ### VCF文件工具
 
-- **[bcftools](https://github.com/samtools/bcftools)**:thumbsup: - VCF文件操作的工具及 [ [paper-2016](https://pubmed.ncbi.nlm.nih.gov/26826718) | [paper-2017](https://pubmed.ncbi.nlm.nih.gov/28205675) | [web](http://samtools.github.io/bcftools) ]
+- **[bcftools](https://github.com/samtools/bcftools)**:thumbsup: - VCF文件操作的工具及 变异检测[ [paper-2016](https://pubmed.ncbi.nlm.nih.gov/26826718) | [paper-2017](https://pubmed.ncbi.nlm.nih.gov/28205675) | [web](http://samtools.github.io/bcftools) ]
 - **[vcfanno](https://github.com/brentp/vcfanno)** - 使用VCFs/BEDs/tabixed文件注释VCF [ [paper-2016](https://pubmed.ncbi.nlm.nih.gov/27250555) ]
 - **[vcflib](https://github.com/vcflib/vcflib)** - 解析和操作VCF文件的C++库
 - **[vcftools](https://github.com/vcftools/vcftools)** - VCF操作和统计(比如连锁不平衡，等位基因频率，Fst)[ [paper-2011](https://pubmed.ncbi.nlm.nih.gov/21653522) ]
