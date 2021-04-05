@@ -155,6 +155,10 @@
 
 - **[POA](https://github.com/ljdursi/poapy)** - 偏序比对用于多序列比对以及同源序列保守序列[ [paper-2002](https://academic.oup.com/bioinformatics/article/18/3/452/236691) ]
 
+#### 聚类
+
+- **[MMseqs2](https://github.com/soedinglab/MMseqs2)** - 用于蛋白质和核酸序列数据集超快、敏感搜索和聚类工具 [ [paper-2017](https://www.nature.com/articles/nbt.3988) | [paper-2018](https://www.nature.com/articles/s41467-018-04964-5) ]
+
 ### 表达定量
 
 - **[Cufflinks](https://github.com/cole-trapnell-lab/cufflinks)** - Cufflinks组装转录本，估计表达风度，RNA-seq样本差异表达和调控分析 [ [paper-2010](https://www.nature.com/articles/nbt.1621) ]
