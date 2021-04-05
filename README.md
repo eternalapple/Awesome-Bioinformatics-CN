@@ -163,7 +163,8 @@
 
 - **[freebayes](https://github.com/ekg/freebayes)** - 基于贝叶斯单倍型多态性发现及基因分型 [ [web](http://arxiv.org/abs/1207.3907) ]
 - **[GATK](https://github.com/broadgsa/gatk)** :thumbsup:- 高通量数据变异检测金标准[ [web](https://software.broadinstitute.org/gatk) ]
-- **[deepvariant](https://github.com/google/deepvariant)** - 深度学习变异检测 [ [paper-2018](https://doi.org/10.1038/nbt.4235) ]
+- **[deepvariant](https://github.com/google/deepvariant)** - 深度学习变异检测 [ [Nature Biotechnology-2018](https://doi.org/10.1038/nbt.4235) ]
+- **[Octopus](https://github.com/luntergroup/octopus)** - 基于多态性贝叶斯分型模型的变异检测 [ [Nature Biotechnology-2021](https://www.nature.com/articles/s41587-021-00861-3) ]
 
 #### 结构变异检测
 
