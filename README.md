@@ -118,6 +118,11 @@
 - **[Cufflinks](https://github.com/cole-trapnell-lab/cufflinks)** - Cufflinks组装转录本，估计表达风度，RNA-seq样本差异表达和调控分析 [ [paper-2010](https://www.nature.com/articles/nbt.1621) ]
 - **[RSEM](https://github.com/deweylab/RSEM)** - RNA-Seq数据基因层次和转录本层次表达定量 [ [paper-2011](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-323) | [web](http://deweylab.github.io/RSEM/) ]
 
+### 富集分析
+
+- **[GSEApy](https://github.com/zqfang/GSEApy)**:thumbsup: - 使用Python进行基因集分析分析
+- **[clusterProfiler](https://github.com/YuLab-SMU/clusterProfiler)**:thumbsup:- Y叔富集分析R包 ​
+
 ### 变异检测
 
 - **[freebayes](https://github.com/ekg/freebayes)** - 基于贝叶斯单倍型多态性发现及基因分型 [ [web](http://arxiv.org/abs/1207.3907) ]
