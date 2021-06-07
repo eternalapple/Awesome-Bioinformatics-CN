@@ -67,6 +67,7 @@
 - **[Bactopia](https://github.com/bactopia/bactopia/)** - 基于Nextflow的细菌基因组分析流程 [ [web](https://bactopia.github.io/) ]
 - **[bcbio-nextgen](https://github.com/chapmanb/bcbio-nextgen)** - 已验证可扩展的，社区开发的变异检测，注释，预测，RNA-seq和小RNA分析流程 [ [web](https://bcbio-nextgen.readthedocs.io) ]
 - **[snakepipes](https://github.com/maxplanck-ie/snakepipes):thumbsup:** - 基于snakemake的流程，包括ChIP-seq，mRNA-seq， noncoding-RNA-seq， ATAC-seq， scRNA-seq，Hi-C，Whole Genome Bisulfite Seq/WGBS [ [paper-2019](https://academic.oup.com/bioinformatics/article/35/22/4757/5499080) ]
+- **[nf-core](https://github.com/nf-core)**:thumbsup: - 基于Nextflow的社群维护的精选分析流程
 
 ### 格式转化
 
