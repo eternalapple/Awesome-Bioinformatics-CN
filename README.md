@@ -45,6 +45,8 @@
 - **[wormtable](https://github.com/wormtable/wormtable)** - 大型数据集单写多读
 - **[zindex](https://github.com/mattgodbolt/zindex)** - 压缩文本文件创建索引
 - **[jq](https://github.com/stedolan/jq)​**:thumbsup: - 命令行处理JSON文件
+- screen :thumbsup: - 命令行终端切换软件
+- **[tmux](https://github.com/tmux/tmux)**:thumbsup: - 终端多路复用器，可以在一个屏幕上创建，访问，控制多个终端。同时可以断开连接并继续在后台运行
 
 ## 二代测序
 
@@ -116,7 +118,7 @@
 ### 表达定量
 
 - **[Cufflinks](https://github.com/cole-trapnell-lab/cufflinks)** - Cufflinks组装转录本，估计表达风度，RNA-seq样本差异表达和调控分析 [ [paper-2010](https://www.nature.com/articles/nbt.1621) ]
-- **[RSEM](https://github.com/deweylab/RSEM)** - RNA-Seq数据基因层次和转录本层次表达定量 [ [paper-2011](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-323) | [web](http://deweylab.github.io/RSEM/) ]
+- **[RSEM](https://github.com/deweylab/RSEM)**:thumbsup: - RNA-Seq数据基因层次和转录本层次表达定量 [ [paper-2011](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-323) | [web](http://deweylab.github.io/RSEM/) ]
 
 ### 富集分析
 
@@ -127,7 +129,7 @@
 
 - **[freebayes](https://github.com/ekg/freebayes)** - 基于贝叶斯单倍型多态性发现及基因分型 [ [web](http://arxiv.org/abs/1207.3907) ]
 - **[GATK](https://github.com/broadgsa/gatk)** :thumbsup:- 高通量数据变异检测金标准[ [web](https://software.broadinstitute.org/gatk) ]
-- **[deepvariant](https://github.com/google/deepvariant)** - 深度学习变异检测 [ [Nature Biotechnology-2018](https://doi.org/10.1038/nbt.4235) ]
+- **[deepvariant](https://github.com/google/deepvariant)**:thumbsup: - 深度学习变异检测 [ [Nature Biotechnology-2018](https://doi.org/10.1038/nbt.4235) ]
 - **[Octopus](https://github.com/luntergroup/octopus)** - 基于多态性贝叶斯分型模型的变异检测 [ [Nature Biotechnology-2021](https://www.nature.com/articles/s41587-021-00861-3) ]
 
 #### 结构变异检测
