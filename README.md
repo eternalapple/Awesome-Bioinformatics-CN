@@ -20,6 +20,7 @@
 - **[BioJulia](https://github.com/BioJulia)** - 基于`Jujia`的生物信息学和计算生物学框架[ [web](https://biojulia.net) ]
 - **[Rust-Bio](https://github.com/rust-bio/rust-bio)** - 基于`Rust`的生物信息学常见数据结构和算法[ [paper-2016](http://bioinformatics.oxfordjournals.org/content/early/2015/10/06/bioinformatics.btv573.short?rss=1) ]
 - **[SeqAn](https://github.com/seqan/seqan3)** - 基于`C++`的序列分析库
+- **[(Poly)merase](https://github.com/TimothyStiles/poly)** - 合成生物学GO库和命令行工具
 
 ## 数据下载
 
