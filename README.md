@@ -200,14 +200,25 @@
 
 ### 组装
 
-- **[SPAdes](https://github.com/ablab/spades)** - SPAdes (St. Petersburg genome assembler) is an assembly toolkit containing various assembly pipelines and the de-facto standard for prokaryotic genome assemblies.
-- **[SKESA](https://github.com/ncbi/SKESA)** - SKESA is a de-novo sequence read assembler for microbial genomes. It uses conservative heuristics and is designed to create breaks at repeat regions in the genome. This leads to excellent sequence quality without significantly compromising contiguity.
+
+- **[SPAdes](https://github.com/ablab/spades)** - SPAdes (St. Petersburg genome assembler) 原核生物基因组组装/分析工具集
+- **[SKESA](https://github.com/ncbi/SKESA)** - SKESA，微生物基因组序列重头组装。使用保守的启发式方法，在基因组中的重复区域创建断点。 这会生成高质量的序列，而不会显著影响连续性。
+
+### 长读长测序
+
+#### 组装
+
+- **[canu](https://github.com/marbl/canu)** - 单分子序列组装工具，大小基因组均适用
+- **[flye](https://github.com/fenderglass/Flye)** - 适用repeat graph进行单分子测序重头组装
+- **[hifiasm](https://github.com/chhylp123/hifiasm)** - haplotype-resolved de novo assembler for PacBio HiFi reads
+- **[wtdbg2](https://github.com/ruanjue/wtdbg2)** - 基于模糊Bruijn graph方法的长读长组装
 
 ### 注释
 
 - **[Prokka](https://github.com/tseemann/prokka)** - 快速进行原核基因组注释，Prokka是微生物基因组注释最常用的工具之一。
 - **[Bakta](https://github.com/oschwengers/bakta)** - Bakta 是一种用于对细菌基因组和质粒进行快速和标准化注释的工具。 它以 JSON 和生物信息学标准文件格式提供dbxref -rich和 sORF 的注释，用于自动下游分析。
 - **[Bacannot](https://github.com/fmalmeida/bacannot)** - 基于Nextflow的细菌基因组注释的流程 [ [web](https://bacannot.readthedocs.io/en/latest/?badge=latest) ]
+
 
 ## 可视化
 
