@@ -67,7 +67,6 @@
 
 - **[Awesome-Pipeline](https://github.com/pditommaso/awesome-pipeline)** - 流程资源列表
 - **[Bactopia](https://github.com/bactopia/bactopia/)** - 基于Nextflow的细菌基因组分析流程 [ [web](https://bactopia.github.io/) ]
-- **[Bacannot](https://github.com/fmalmeida/bacannot)** - 基于Nextflow的细菌基因组注释的流程 [ [web](https://bacannot.readthedocs.io/en/latest/?badge=latest) ]
 - **[bcbio-nextgen](https://github.com/chapmanb/bcbio-nextgen)** - 已验证可扩展的，社区开发的变异检测，注释，预测，RNA-seq和小RNA分析流程 [ [web](https://bcbio-nextgen.readthedocs.io) ]
 - **[snakepipes](https://github.com/maxplanck-ie/snakepipes):thumbsup:** - 基于snakemake的流程，包括ChIP-seq，mRNA-seq， noncoding-RNA-seq， ATAC-seq， scRNA-seq，Hi-C，Whole Genome Bisulfite Seq/WGBS [ [paper-2019](https://academic.oup.com/bioinformatics/article/35/22/4757/5499080) ]
 - **[nf-core](https://github.com/nf-core)**:thumbsup: - 基于Nextflow的社群维护的精选分析流程
@@ -88,6 +87,7 @@
 - **[Fastqp](https://github.com/mdshw5/fastqp)** - 基于`python`的FASTQ和SAM质控工具
 - **[Fastx Tookit](https://github.com/agordon/fastx_toolkit)** - FASTQ/FASTA 短序列处理工具：去接头，trimming，碱基质量过滤，masking[ [web](http://hannonlab.cshl.edu/fastx_toolkit) ]
 - **[MultiQC](https://github.com/ewels/MultiQC)** :thumbsup: - 汇总多个样本的生物信息分析结果到一张报告 [ [paper-2016](https://pubmed.ncbi.nlm.nih.gov/27312411) | [web](http://multiqc.info) ]
+- **[SeqFu](https://github.com/telatin/seqfu2)** - 基于Nim的处理FASTA/FASTQ工具集[ [paper-2021](https://www.mdpi.com/2306-5354/8/5/59) | [web](https://telatin.github.io/seqfu2/) ]
 - **[SeqKit](https://github.com/shenwei356/seqkit)** - 基于`Go`的跨平台，超快处理FASTQ/FASTQ文件的工具包[ [paper-2016](https://pubmed.ncbi.nlm.nih.gov/27706213) | [web](https://bioinf.shenwei.me/seqkit) ]
 - **[Seqtk](https://github.com/lh3/seqtk)** :thumbsup:- 处理FASTA/FASTQ格式中序列的工具箱
 - **[smof](https://github.com/incertae-sedis/smof)** - UNIX-风格的FASTA操作工具
@@ -197,6 +197,17 @@
 - **[pyfaidx](https://github.com/mdshw5/pyfaidx)** - Python访问fasta文件
 - **[pysam](https://github.com/pysam-developers/pysam)** - Python封装的[samtools](https://github.com/samtools/samtools). [ [web](https://pysam.readthedocs.io/en/latest/api.html) ]
 - **[pyVCF](https://github.com/jamescasbon/PyVCF)** - Python解析VCF文件 [ [web](http://pyvcf.readthedocs.org/en/latest/index.html) ]
+
+### 组装
+
+- **[SPAdes](https://github.com/ablab/spades)** - SPAdes (St. Petersburg genome assembler) is an assembly toolkit containing various assembly pipelines and the de-facto standard for prokaryotic genome assemblies.
+- **[SKESA](https://github.com/ncbi/SKESA)** - SKESA is a de-novo sequence read assembler for microbial genomes. It uses conservative heuristics and is designed to create breaks at repeat regions in the genome. This leads to excellent sequence quality without significantly compromising contiguity.
+
+### 注释
+
+- **[Prokka](https://github.com/tseemann/prokka)** - 快速进行原核基因组注释，Prokka是微生物基因组注释最常用的工具之一。
+- **[Bakta](https://github.com/oschwengers/bakta)** - Bakta 是一种用于对细菌基因组和质粒进行快速和标准化注释的工具。 它以 JSON 和生物信息学标准文件格式提供dbxref -rich和 sORF 的注释，用于自动下游分析。
+- **[Bacannot](https://github.com/fmalmeida/bacannot)** - 基于Nextflow的细菌基因组注释的流程 [ [web](https://bacannot.readthedocs.io/en/latest/?badge=latest) ]
 
 ## 可视化
 
