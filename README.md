@@ -164,6 +164,7 @@
 
 ### GFF/BED文件工具
 
+- **[AGAT](https://github.com/NBISweden/AGAT)** - 处理GTF/GFF格式基因注释文件工具集[ [web](https://agat.readthedocs.io/en/latest/?badge=latest) ]
 - **[gffutils](https://github.com/daler/gffutils)** - GFF和GTF文件操作工具及相互转换[ [web](http://daler.github.io/gffutils) ]
 - **[BEDOPS](https://github.com/bedops/bedops)** - 快速，高度可扩展且方便并行处理的基因组分析工具 [ [paper-2012](https://academic.oup.com/bioinformatics/article/28/14/1919/218826) ]
 - **[Bedtools2](https://github.com/arq5x/bedtools2)** - 基因组分析的“瑞士军刀” [ [paper-2010](https://pubmed.ncbi.nlm.nih.gov/20110278) | [paper-2014](https://pubmed.ncbi.nlm.nih.gov/25199790) | [web](https://bedtools.readthedocs.io) ]
