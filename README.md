@@ -21,11 +21,17 @@
 - **[Rust-Bio](https://github.com/rust-bio/rust-bio)** - 基于`Rust`的生物信息学常见数据结构和算法[ [paper-2016](http://bioinformatics.oxfordjournals.org/content/early/2015/10/06/bioinformatics.btv573.short?rss=1) ]
 - **[SeqAn](https://github.com/seqan/seqan3)** - 基于`C++`的序列分析库
 - **[(Poly)merase](https://github.com/TimothyStiles/poly)** - 合成生物学GO库和命令行工具
+- **[Biocaml](https://github.com/biocaml/biocaml)** - 基于OCaml的高性能生物信息库
 
 ## 数据下载
 
 - **[GGD](https://github.com/gogetdata/ggd-cli)** - Go Get Data; 命令行下载基因组数据 [ [web](https://gogetdata.github.io) ]
 - **[SRA-Explorer](https://github.com/ewels/sra-explorer)** - 快速获得SRA下载链接和其它信息 [ [web](https://sra-explorer.info) ]
+
+## 数据压缩
+
+- **[Genozip](https://github.com/divonlan/genozip)** :thumbsup: - 常见基因组文件格式(BAM, CRAM, FASTQ, VCF等)压缩 [ [web](https://genozip.readthedocs.io/) | [paper-2021](http://dx.doi.org/10.1093/bioinformatics/btab102) ]
+- **[gtz](https://github.com/Genetalks/gtz)** :thumbsup:,  人和未来开发的高性能高压缩效率的工具
 
 ## 数据处理
 
